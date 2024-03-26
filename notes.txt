@@ -1,28 +1,35 @@
 #########################################################################
+
+
 steps to run
 -> conda activate mtp2 // activate conda env
 -> docker-compose up  // for the app
 attaching strace to http server
--> sudo docker run -it \     
-    --name strace \
+-> sudo docker run -it \
+    --name strace_server \
     --pid=container:code_web_1 \
     --net=container:code_web_1 \
     --cap-add sys_admin \
     --cap-add sys_ptrace \
-    -v ./strace_logs:/container_logs \
-    strace /bin/sh -c
--> sudo docker run -it \     
-    --name strace \
+    -v /home/parth/Desktop/mtp/code/strace_logs_server:/strace_logs_server \
+    strace /bin/sh -c 'strace -ff -ttt -v -e trace=network -e \!poll -o /strace_logs_server/strace_output -p 145'
+'
+-> sudo docker run -it \
+    --name strace_db \
     --pid=container:code_db_1 \
     --net=container:code_db_1 \
     --cap-add sys_admin \
     --cap-add sys_ptrace \
-    -v home/parth/Desktop/mtp/code/strace_logs \
-    strace /bin/sh -c
+    -v /home/parth/Desktop/mtp/code/strace_logs_db:/strace_logs_db \
+    strace /bin/sh -c "strace -ff -ttt -v -e trace=network -e \!poll -o /strace_logs_db/strace_output -p 16"
 -> find process id of server and db
 sudo docker exec -it code_web_1 bin/bash
 ps aux
--> find how to attach strace
+-> combine the logs into single filters
+python3 parse_logs.py 
+-> extract required fields and run the algo
+python3 main.py
+
 ##########################################################################
 http_server <-> db
 adding user using local machine (add_users_async.py)
@@ -41,16 +48,27 @@ sudo docker run -it \
     --net=container:code_web_1 \
     --cap-add sys_admin \
     --cap-add sys_ptrace \
+    -v /home/parth/Desktop/mtp/code/strace_logs: /strace_logs \
     strace /bin/sh
 
 sudo docker run -it \
-    --name strace \
+    --name strace_server \
     --pid=container:code_web_1 \
     --net=container:code_web_1 \
     --cap-add sys_admin \
     --cap-add sys_ptrace \
-    -v home/parth/Desktop/mtp/code/strace_logs \
-    strace /bin/sh -c "strace -ff -t -e trace=network -e '!poll'-o /strace_logs/strace_output -p 16"
+    -v /home/parth/Desktop/mtp/code/strace_logs_server:/strace_logs_server \
+    strace /bin/sh -c 'strace -ff -t -e trace=network -e \!poll -o /strace_logs_server/strace_output -p 145'
+
+
+sudo docker run -it \
+    --name strace_db \
+    --pid=container:code_db_1 \
+    --net=container:code_db_1 \
+    --cap-add sys_admin \
+    --cap-add sys_ptrace \
+    -v /home/parth/Desktop/mtp/code/strace_logs_db:/strace_logs_db \
+    strace /bin/sh -c "strace -ff -t -e trace=network -e \!poll -o /strace_logs/strace_output -p 16"
 
 
 sudo docker exec code_db_1 ps aux // to show all process within a container 

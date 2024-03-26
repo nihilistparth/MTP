@@ -1,0 +1,56 @@
+1711458104.049457 restart_syscall(<... resuming interrupted read ...>) = 0
+1711458105.021354 nanosleep({tv_sec=1, tv_nsec=0}, NULL) = 0
+1711458106.021600 nanosleep({tv_sec=1, tv_nsec=0}, NULL) = 0
+1711458107.022091 nanosleep({tv_sec=1, tv_nsec=0}, NULL) = 0
+1711458108.022409 nanosleep({tv_sec=1, tv_nsec=0}, NULL) = 0
+1711458109.022970 nanosleep({tv_sec=1, tv_nsec=0}, NULL) = 0
+1711458110.023394 nanosleep({tv_sec=1, tv_nsec=0}, NULL) = 0
+1711458111.023666 nanosleep({tv_sec=1, tv_nsec=0}, NULL) = 0
+1711458112.023900 nanosleep({tv_sec=1, tv_nsec=0}, NULL) = 0
+1711458113.024252 nanosleep({tv_sec=1, tv_nsec=0}, NULL) = 0
+1711458114.024607 nanosleep({tv_sec=1, tv_nsec=0}, NULL) = 0
+1711458115.025154 nanosleep({tv_sec=1, tv_nsec=0}, NULL) = 0
+1711458116.025579 nanosleep({tv_sec=1, tv_nsec=0}, NULL) = 0
+1711458117.025917 nanosleep({tv_sec=1, tv_nsec=0}, NULL) = 0
+1711458118.026522 nanosleep({tv_sec=1, tv_nsec=0}, NULL) = 0
+1711458119.027150 nanosleep({tv_sec=1, tv_nsec=0}, NULL) = 0
+1711458120.027539 nanosleep({tv_sec=1, tv_nsec=0}, NULL) = 0
+1711458121.028096 nanosleep({tv_sec=1, tv_nsec=0}, NULL) = 0
+1711458122.028760 nanosleep({tv_sec=1, tv_nsec=0}, NULL) = 0
+1711458123.029474 nanosleep({tv_sec=1, tv_nsec=0}, NULL) = 0
+1711458124.030121 nanosleep({tv_sec=1, tv_nsec=0}, NULL) = 0
+1711458125.030612 nanosleep({tv_sec=1, tv_nsec=0}, NULL) = 0
+1711458126.031235 nanosleep({tv_sec=1, tv_nsec=0}, NULL) = 0
+1711458127.031992 nanosleep({tv_sec=1, tv_nsec=0}, NULL) = 0
+1711458128.032661 nanosleep({tv_sec=1, tv_nsec=0}, NULL) = 0
+1711458129.033243 nanosleep({tv_sec=1, tv_nsec=0}, NULL) = 0
+1711458130.033641 nanosleep({tv_sec=1, tv_nsec=0}, NULL) = 0
+1711458131.034189 futex(0x2a089f4, FUTEX_CMP_REQUEUE_PRIVATE, 1, 2147483647, 0x2a089c8, 508) = 1
+1711458131.034505 nanosleep({tv_sec=1, tv_nsec=0}, NULL) = 0
+1711458132.035177 futex(0x2a089f4, FUTEX_CMP_REQUEUE_PRIVATE, 1, 2147483647, 0x2a089c8, 512) = 1
+1711458132.035758 futex(0x2a089c8, FUTEX_WAKE_PRIVATE, 1) = 0
+1711458132.036228 pwrite64(3, "\200\0]j\0016\0<\0\0\0005\4size\1\6\4f\2\265\325\0$\0\nmyda"..., 512, 12236800) = 512
+1711458132.036578 fsync(3)              = 0
+1711458132.049976 io_submit(0x7fa23ce10000, 1, [{aio_data=0x2cdb7c0, aio_lio_opcode=IOCB_CMD_PWRITE, aio_fildes=3, aio_buf="\0\0\0\0\0\0\0005\0\0\0\0\0\272\322\310\0\0\0\0\0\272\270\310\0\0\0\0\1\0\0\0"..., aio_nbytes=512, aio_offset=1536}]) = 1
+1711458132.051219 sched_yield()         = 0
+1711458132.051665 futex(0x307a884, FUTEX_WAIT_PRIVATE, 15, NULL) = 0
+1711458132.053140 futex(0x307a858, FUTEX_WAKE_PRIVATE, 1) = 0
+1711458132.053227 nanosleep({tv_sec=1, tv_nsec=0}, NULL) = 0
+1711458133.053559 futex(0x2a089f4, FUTEX_CMP_REQUEUE_PRIVATE, 1, 2147483647, 0x2a089c8, 516) = 1
+1711458133.053770 pwrite64(3, "\200\0]j\1?\0<\0\0\0006\4size\1\6\4f\2\265\325\0$\0\nmyda"..., 512, 12236800) = 512
+1711458133.053995 fsync(3)              = 0
+1711458133.067098 io_submit(0x7fa23ce10000, 1, [{aio_data=0x2cdb7c0, aio_lio_opcode=IOCB_CMD_PWRITE, aio_fildes=3, aio_buf="\0\0\0\0\0\0\0006\0\0\0\0\0\272\3236\0\0\0\0\0\272\2716\0\0\0\0\1\0\0\0"..., aio_nbytes=512, aio_offset=512}]) = 1
+1711458133.067447 sched_yield()         = 0
+1711458133.067491 futex(0x307a884, FUTEX_WAIT_PRIVATE, 17, NULL) = 0
+1711458133.069278 futex(0x307a858, FUTEX_WAIT_PRIVATE, 2, NULL) = -1 EAGAIN (Resource temporarily unavailable)
+1711458133.069321 futex(0x307a858, FUTEX_WAKE_PRIVATE, 1) = 0
+1711458133.069359 nanosleep({tv_sec=1, tv_nsec=0}, NULL) = 0
+1711458134.069532 futex(0x2a089f4, FUTEX_CMP_REQUEUE_PRIVATE, 1, 2147483647, 0x2a089c8, 520) = 1
+1711458134.069836 nanosleep({tv_sec=1, tv_nsec=0}, NULL) = 0
+1711458135.070415 futex(0x2a089f4, FUTEX_CMP_REQUEUE_PRIVATE, 1, 2147483647, 0x2a089c8, 524) = 1
+1711458135.070918 futex(0x2a089c8, FUTEX_WAKE_PRIVATE, 1) = 0
+1711458135.071317 nanosleep({tv_sec=1, tv_nsec=0}, NULL) = 0
+1711458136.071667 futex(0x2a089f4, FUTEX_CMP_REQUEUE_PRIVATE, 1, 2147483647, 0x2a089c8, 528) = 1
+1711458136.072018 nanosleep({tv_sec=1, tv_nsec=0}, NULL) = 0
+1711458137.072548 futex(0x2a089f4, FUTEX_CMP_REQUEUE_PRIVATE, 1, 2147483647, 0x2a089c8, 532) = 1
+1711458137.072809 nanosleep({tv_sec=1, tv_nsec=0},  <detached ...>

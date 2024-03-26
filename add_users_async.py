@@ -13,7 +13,7 @@ async def add_user(session, username):
 
 async def main():
     async with aiohttp.ClientSession() as session:
-        users = ['messi']
+        users = ['random1','random2']
         tasks = [add_user(session, user) for user in users]
         responses = await asyncio.gather(*tasks)
         for response in responses:

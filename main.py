@@ -1,6 +1,6 @@
 import pandas as pd
 import numpy as np
-from parse_logs import parse_logs
+# from parse_logs import parse_logs
 
 def viterbi(observed_states):
     """
@@ -30,16 +30,23 @@ def viterbi(observed_states):
 
 if __name__ == "__main__":
     # parse log data
-    parse_logs()
+    # parse_logs()
     
-    log_data = pd.read_csv('log.csv')
+    log_data = pd.read_csv('combined_logs.csv')
 
-    # states based on unique combinations of the relevant fields
+    # states based on unique combinations \
     states = log_data.drop_duplicates(subset=['machine_id', 'container_id', 'process_id', 'parent_process_id', 'user_id', 'system_call', 'arguments'])
 
-    # map each state to an index
+    # mp each state to an index
     state_index = {state: index for index, state in enumerate(states.itertuples(index=False))}
-    print(states)
+    output_file = 'state_space.txt'
+
+# Open the file in write mode and write each key-value pair
+    # with open(output_file, 'w') as file:
+    #     for key, value in state_index.items():
+    #         file.write(f"{key}: {value}\n")
+    
+    
     # initial state vector
     initial_state_prob = np.zeros(len(state_index))
     initial_state_prob[0] = 1  # Assuming the first state is the starting point
@@ -51,16 +58,40 @@ if __name__ == "__main__":
     for i in range(len(log_data) - 1):
         current_state = log_data.iloc[i]
         next_state = log_data.iloc[i + 1]
-        current_index = state_index[(current_state.machine_id, current_state.container_id, current_state.process_id, current_state.parent_process_id, current_state.user_id, current_state.system_call, current_state.arguments)]
-        next_index = state_index[(next_state.machine_id, next_state.container_id, next_state.process_id, next_state.parent_process_id, next_state.user_id, next_state.system_call, next_state.arguments)]
-        transition_matrix[current_index, next_index] += 1
+        
+     
+        current_state_key = (current_state.machine_id, current_state.container_id, current_state.process_id, 
+                            current_state.parent_process_id, current_state.user_id, 
+                            current_state.system_call, current_state.arguments)
+        
 
+        next_state_key = (next_state.machine_id, next_state.container_id, next_state.process_id, 
+                        next_state.parent_process_id, next_state.user_id, 
+                        next_state.system_call, next_state.arguments)
+        
+        # print(current_state_key,next_state_key)
+        # Check if the current state key is in the state index
+        if current_state_key not in state_index:
+            print("yes")
+            continue 
+
+        if next_state_key not in state_index:
+            # Handle the missing key, 
+            continue  
+
+        current_index = state_index[current_state_key]
+        next_index = state_index[next_state_key]
+        print("no")   
+        # print("=>",current_state,next_state)
     # Normalize the transition matrix
-    transition_matrix = transition_matrix / transition_matrix.sum(axis=1, keepdims=True)
-# can be used like this
-observed_states =  [0,2]  # examples of observed states
-root_cause_path = viterbi(observed_states)
-print("Most likely path of states leading to the issue: \n", root_cause_path,"\n")
+    row_sums = transition_matrix.sum(axis=1, keepdims=True)
+    transition_matrix = np.divide(transition_matrix, row_sums, out=np.zeros_like(transition_matrix), where=row_sums != 0)
+    # can be used like this
+    observed_states =  [8,25]  # examples of observed states
+    root_cause_path = viterbi(observed_states)
+    print("Most likely path of states leading to the issue: \n", root_cause_path,"\n")
+
+
 '''
 take 2 apps (consult chatgpt)
 http server need some iteraction from outside, talk to the database , get some stored data and modify web page, client to talk to server
