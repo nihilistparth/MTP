@@ -1,0 +1,67 @@
+#########################################################################
+steps to run
+-> conda activate mtp2 // activate conda env
+-> docker-compose up  // for the app
+attaching strace to http server
+-> sudo docker run -it \     
+    --name strace \
+    --pid=container:code_web_1 \
+    --net=container:code_web_1 \
+    --cap-add sys_admin \
+    --cap-add sys_ptrace \
+    -v ./strace_logs:/container_logs \
+    strace /bin/sh -c
+-> sudo docker run -it \     
+    --name strace \
+    --pid=container:code_db_1 \
+    --net=container:code_db_1 \
+    --cap-add sys_admin \
+    --cap-add sys_ptrace \
+    -v home/parth/Desktop/mtp/code/strace_logs \
+    strace /bin/sh -c
+-> find process id of server and db
+sudo docker exec -it code_web_1 bin/bash
+ps aux
+-> find how to attach strace
+##########################################################################
+http_server <-> db
+adding user using local machine (add_users_async.py)
+docker exec -it strace sh -c "strace -t -e trace=network -fp http_container_main_process_pid"
+###
+Replace strace_container with the name or ID of your strace container, and http_container_main_process_pid with the PID of the main process in your HTTP container
+If you're using the standard setup where the main process has PID 1, you can just use -fp 1.
+The -t option adds a timestamp to each line of the trace, and -e trace=network filters the trace to show only network-related system calls.
+###
+(to test)curl http://localhost:5000
+
+->To strace_container
+sudo docker run -it \
+    --name strace \
+    --pid=container:code_web_1 \
+    --net=container:code_web_1 \
+    --cap-add sys_admin \
+    --cap-add sys_ptrace \
+    strace /bin/sh
+
+sudo docker run -it \
+    --name strace \
+    --pid=container:code_web_1 \
+    --net=container:code_web_1 \
+    --cap-add sys_admin \
+    --cap-add sys_ptrace \
+    -v home/parth/Desktop/mtp/code/strace_logs \
+    strace /bin/sh -c "strace -ff -t -e trace=network -e '!poll'-o /strace_logs/strace_output -p 16"
+
+
+sudo docker exec code_db_1 ps aux // to show all process within a container 
+
+strace -ff -t -e trace=network -e '!poll' -p 16 // (for attaching process)
+
+remaining 
+-> mount drive to store logs locally (almost done)
+-> faketime (done but yet to test)
+-> create single dokcer compose accomodate target and strace docker (look into depends on flog in docker compose)
+-> pgrep to automate pid of python app
+-> dont download everytime (dockerfile)
+-> automate and github(remember) 
+-> algorithm check (final)

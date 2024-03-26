@@ -1,0 +1,34 @@
+[pid   126] 13:24:41 getpeername(41, {sa_family=AF_INET6, sin6_port=htons(47528), sin6_flowinfo=htonl(0), inet_pton(AF_INET6, "::ffff:172.19.0.3", &sin6_addr), sin6_scope_id=0}, [128 => 28]) = 0
+[pid   126] 13:24:41 setsockopt(41, SOL_SOCKET, SO_KEEPALIVE, [1], 4) = 0
+[pid   126] 13:24:41 sendto(41, "J\0\0\0\n5.7.44\0\"\0\0\0007Gb}+UO\5\0\377\377\10\2\0\377\301"..., 78, MSG_DONTWAIT, NULL, 0) = 78
+[pid   126] 13:24:41 recvfrom(41, 0x7fcde8002940, 4, MSG_DONTWAIT, NULL, NULL) = -1 EAGAIN (Resource temporarily unavailable)
+[pid   126] 13:24:41 recvfrom(41, " \0\0\1", 4, MSG_DONTWAIT, NULL, NULL) = 4
+[pid   126] 13:24:41 recvfrom(41, "\215\252\277\31\0\0\0@\377\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0", 32, MSG_DONTWAIT, NULL, NULL) = 32
+[pid   126] 13:24:41 shutdown(41, SHUT_RDWR) = 0
+[pid     1] 13:24:41 accept(24, {sa_family=AF_INET6, sin6_port=htons(47542), sin6_flowinfo=htonl(0), inet_pton(AF_INET6, "::ffff:172.19.0.3", &sin6_addr), sin6_scope_id=0}, [128 => 28]) = 41
+[pid   126] 13:24:41 setsockopt(41, SOL_TCP, TCP_NODELAY, [1], 4) = 0
+[pid   126] 13:24:41 getpeername(41, {sa_family=AF_INET6, sin6_port=htons(47542), sin6_flowinfo=htonl(0), inet_pton(AF_INET6, "::ffff:172.19.0.3", &sin6_addr), sin6_scope_id=0}, [128 => 28]) = 0
+[pid   126] 13:24:41 setsockopt(41, SOL_SOCKET, SO_KEEPALIVE, [1], 4) = 0
+[pid   126] 13:24:41 sendto(41, "J\0\0\0\n5.7.44\0#\0\0\0M\36\24OI(>O\0\377\377\10\2\0\377\301"..., 78, MSG_DONTWAIT, NULL, 0) = 78
+[pid   126] 13:24:41 recvfrom(41, 0x7fcde8002940, 4, MSG_DONTWAIT, NULL, NULL) = -1 EAGAIN (Resource temporarily unavailable)
+[pid   126] 13:24:41 recvfrom(41, " \0\0\1", 4, MSG_DONTWAIT, NULL, NULL) = 4
+[pid   126] 13:24:41 recvfrom(41, "\215\252\277\31\0\0\0@\377\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0", 32, MSG_DONTWAIT, NULL, NULL) = 32
+[pid   126] 13:24:41 shutdown(41, SHUT_RDWR) = 0
+[pid     1] 13:37:39 accept(24, {sa_family=AF_INET6, sin6_port=htons(42956), sin6_flowinfo=htonl(0), inet_pton(AF_INET6, "::ffff:172.19.0.3", &sin6_addr), sin6_scope_id=0}, [128 => 28]) = 41
+[pid   126] 13:37:39 setsockopt(41, SOL_TCP, TCP_NODELAY, [1], 4) = 0
+[pid   126] 13:37:39 getpeername(41, {sa_family=AF_INET6, sin6_port=htons(42956), sin6_flowinfo=htonl(0), inet_pton(AF_INET6, "::ffff:172.19.0.3", &sin6_addr), sin6_scope_id=0}, [128 => 28]) = 0
+[pid   126] 13:37:39 setsockopt(41, SOL_SOCKET, SO_KEEPALIVE, [1], 4) = 0
+[pid   126] 13:37:39 sendto(41, "J\0\0\0\n5.7.44\0$\0\0\09=7J@iJ\17\0\377\377\10\2\0\377\301"..., 78, MSG_DONTWAIT, NULL, 0) = 78
+[pid   126] 13:37:39 recvfrom(41, 0x7fcde8002940, 4, MSG_DONTWAIT, NULL, NULL) = -1 EAGAIN (Resource temporarily unavailable)
+[pid   126] 13:37:39 recvfrom(41, " \0\0\1", 4, MSG_DONTWAIT, NULL, NULL) = 4
+[pid   126] 13:37:39 recvfrom(41, "\215\252\277\31\0\0\0@\377\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0", 32, MSG_DONTWAIT, NULL, NULL) = 32
+[pid   126] 13:37:39 shutdown(41, SHUT_RDWR) = 0
+[pid     1] 13:37:56 accept(24, {sa_family=AF_INET6, sin6_port=htons(44812), sin6_flowinfo=htonl(0), inet_pton(AF_INET6, "::ffff:172.19.0.3", &sin6_addr), sin6_scope_id=0}, [128 => 28]) = 41
+[pid   126] 13:37:56 setsockopt(41, SOL_TCP, TCP_NODELAY, [1], 4) = 0
+[pid   126] 13:37:56 getpeername(41, {sa_family=AF_INET6, sin6_port=htons(44812), sin6_flowinfo=htonl(0), inet_pton(AF_INET6, "::ffff:172.19.0.3", &sin6_addr), sin6_scope_id=0}, [128 => 28]) = 0
+[pid   126] 13:37:56 setsockopt(41, SOL_SOCKET, SO_KEEPALIVE, [1], 4) = 0
+[pid   126] 13:37:56 sendto(41, "J\0\0\0\n5.7.44\0%\0\0\0\7:m\10\20o\"-\0\377\377\10\2\0\377\301"..., 78, MSG_DONTWAIT, NULL, 0) = 78
+[pid   126] 13:37:56 recvfrom(41, 0x7fcde8002940, 4, MSG_DONTWAIT, NULL, NULL) = -1 EAGAIN (Resource temporarily unavailable)
+[pid   126] 13:37:56 recvfrom(41, " \0\0\1", 4, MSG_DONTWAIT, NULL, NULL) = 4
+[pid   126] 13:37:56 recvfrom(41, "\215\252\277\31\0\0\0@\377\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0", 32, MSG_DONTWAIT, NULL, NULL) = 32
+[pid   126] 13:37:56 shutdown(41, SHUT_RDWR) = 0
