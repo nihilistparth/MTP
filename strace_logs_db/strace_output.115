@@ -1,15 +1,272 @@
-1711458104.049470 restart_syscall(<... resuming interrupted read ...>) = -1 ETIMEDOUT (Operation timed out)
-1711458107.434878 futex(0x2a08c98, FUTEX_WAKE_PRIVATE, 1) = 0
-1711458107.434992 futex(0x2a08cc4, FUTEX_WAIT_BITSET_PRIVATE, 3369, {tv_sec=18345, tv_nsec=205651771}, FUTEX_BITSET_MATCH_ANY) = -1 ETIMEDOUT (Operation timed out)
-1711458112.435136 futex(0x2a08c98, FUTEX_WAKE_PRIVATE, 1) = 0
-1711458112.435185 futex(0x2a08cc4, FUTEX_WAIT_BITSET_PRIVATE, 3371, {tv_sec=18350, tv_nsec=205848883}, FUTEX_BITSET_MATCH_ANY) = -1 ETIMEDOUT (Operation timed out)
-1711458117.435691 futex(0x2a08c98, FUTEX_WAKE_PRIVATE, 1) = 0
-1711458117.436168 futex(0x2a08cc4, FUTEX_WAIT_BITSET_PRIVATE, 3373, {tv_sec=18355, tv_nsec=206732134}, FUTEX_BITSET_MATCH_ANY) = -1 ETIMEDOUT (Operation timed out)
-1711458122.436557 futex(0x2a08c98, FUTEX_WAKE_PRIVATE, 1) = 0
-1711458122.436708 futex(0x2a08cc4, FUTEX_WAIT_BITSET_PRIVATE, 3375, {tv_sec=18360, tv_nsec=207366751}, FUTEX_BITSET_MATCH_ANY) = -1 ETIMEDOUT (Operation timed out)
-1711458127.437145 futex(0x2a08c98, FUTEX_WAKE_PRIVATE, 1) = 0
-1711458127.437495 futex(0x2a08cc4, FUTEX_WAIT_BITSET_PRIVATE, 3377, {tv_sec=18365, tv_nsec=208073378}, FUTEX_BITSET_MATCH_ANY) = -1 ETIMEDOUT (Operation timed out)
-1711458132.437644 futex(0x2a08c98, FUTEX_WAKE_PRIVATE, 1) = 0
-1711458132.437697 futex(0x2a08cc4, FUTEX_WAIT_BITSET_PRIVATE, 3379, {tv_sec=18370, tv_nsec=208366747}, FUTEX_BITSET_MATCH_ANY) = -1 ETIMEDOUT (Operation timed out)
-1711458137.438243 futex(0x2a08c98, FUTEX_WAKE_PRIVATE, 1) = 0
-1711458137.438702 futex(0x2a08cc4, FUTEX_WAIT_BITSET_PRIVATE, 3381, {tv_sec=18375, tv_nsec=209290470}, FUTEX_BITSET_MATCH_ANY <detached ...>
+1713878747.633026 restart_syscall(<... resuming interrupted read ...>) = 0
+1713878747.636876 nanosleep({tv_sec=1, tv_nsec=0}, NULL) = 0
+1713878748.637328 nanosleep({tv_sec=1, tv_nsec=0}, NULL) = 0
+1713878749.637888 nanosleep({tv_sec=1, tv_nsec=0}, NULL) = 0
+1713878750.638228 nanosleep({tv_sec=1, tv_nsec=0}, NULL) = 0
+1713878751.638445 nanosleep({tv_sec=1, tv_nsec=0}, NULL) = 0
+1713878752.638749 nanosleep({tv_sec=1, tv_nsec=0}, NULL) = 0
+1713878753.639407 nanosleep({tv_sec=1, tv_nsec=0}, NULL) = 0
+1713878754.640027 nanosleep({tv_sec=1, tv_nsec=0}, NULL) = 0
+1713878755.640377 nanosleep({tv_sec=1, tv_nsec=0}, NULL) = 0
+1713878756.640757 nanosleep({tv_sec=1, tv_nsec=0}, NULL) = 0
+1713878757.641400 nanosleep({tv_sec=1, tv_nsec=0}, NULL) = 0
+1713878758.641898 nanosleep({tv_sec=1, tv_nsec=0}, NULL) = 0
+1713878759.642400 nanosleep({tv_sec=1, tv_nsec=0}, NULL) = 0
+1713878760.642872 nanosleep({tv_sec=1, tv_nsec=0}, NULL) = 0
+1713878761.643495 nanosleep({tv_sec=1, tv_nsec=0}, NULL) = 0
+1713878762.643989 nanosleep({tv_sec=1, tv_nsec=0}, NULL) = 0
+1713878763.644568 nanosleep({tv_sec=1, tv_nsec=0}, NULL) = 0
+1713878764.645086 nanosleep({tv_sec=1, tv_nsec=0}, NULL) = 0
+1713878765.645646 nanosleep({tv_sec=1, tv_nsec=0}, NULL) = 0
+1713878766.646194 nanosleep({tv_sec=1, tv_nsec=0}, NULL) = 0
+1713878767.646691 nanosleep({tv_sec=1, tv_nsec=0}, NULL) = 0
+1713878768.647304 nanosleep({tv_sec=1, tv_nsec=0}, NULL) = 0
+1713878769.647761 nanosleep({tv_sec=1, tv_nsec=0}, NULL) = 0
+1713878770.648236 nanosleep({tv_sec=1, tv_nsec=0}, NULL) = 0
+1713878771.648672 nanosleep({tv_sec=1, tv_nsec=0}, NULL) = 0
+1713878772.649131 nanosleep({tv_sec=1, tv_nsec=0}, NULL) = 0
+1713878773.649471 nanosleep({tv_sec=1, tv_nsec=0}, NULL) = 0
+1713878774.649980 nanosleep({tv_sec=1, tv_nsec=0}, NULL) = 0
+1713878775.650416 nanosleep({tv_sec=1, tv_nsec=0}, NULL) = 0
+1713878776.650971 nanosleep({tv_sec=1, tv_nsec=0}, NULL) = 0
+1713878777.651314 nanosleep({tv_sec=1, tv_nsec=0}, NULL) = 0
+1713878778.651769 nanosleep({tv_sec=1, tv_nsec=0}, NULL) = 0
+1713878779.652233 nanosleep({tv_sec=1, tv_nsec=0}, NULL) = 0
+1713878780.652755 nanosleep({tv_sec=1, tv_nsec=0}, NULL) = 0
+1713878781.653218 nanosleep({tv_sec=1, tv_nsec=0}, NULL) = 0
+1713878782.653535 nanosleep({tv_sec=1, tv_nsec=0}, NULL) = 0
+1713878783.654141 nanosleep({tv_sec=1, tv_nsec=0}, NULL) = 0
+1713878784.654770 nanosleep({tv_sec=1, tv_nsec=0}, NULL) = 0
+1713878785.655299 nanosleep({tv_sec=1, tv_nsec=0}, NULL) = 0
+1713878786.655743 nanosleep({tv_sec=1, tv_nsec=0}, NULL) = 0
+1713878787.656163 nanosleep({tv_sec=1, tv_nsec=0}, NULL) = 0
+1713878788.656872 nanosleep({tv_sec=1, tv_nsec=0}, NULL) = 0
+1713878789.657386 nanosleep({tv_sec=1, tv_nsec=0}, NULL) = 0
+1713878790.658019 nanosleep({tv_sec=1, tv_nsec=0}, NULL) = 0
+1713878791.658688 nanosleep({tv_sec=1, tv_nsec=0}, NULL) = 0
+1713878792.659395 nanosleep({tv_sec=1, tv_nsec=0}, NULL) = 0
+1713878793.659890 nanosleep({tv_sec=1, tv_nsec=0}, NULL) = 0
+1713878794.660225 nanosleep({tv_sec=1, tv_nsec=0}, NULL) = 0
+1713878795.660633 nanosleep({tv_sec=1, tv_nsec=0}, NULL) = 0
+1713878796.661120 nanosleep({tv_sec=1, tv_nsec=0}, NULL) = 0
+1713878797.661877 nanosleep({tv_sec=1, tv_nsec=0}, NULL) = 0
+1713878798.662639 nanosleep({tv_sec=1, tv_nsec=0}, NULL) = 0
+1713878799.663322 nanosleep({tv_sec=1, tv_nsec=0}, NULL) = 0
+1713878800.664151 nanosleep({tv_sec=1, tv_nsec=0}, NULL) = 0
+1713878801.664745 nanosleep({tv_sec=1, tv_nsec=0}, NULL) = 0
+1713878802.665392 nanosleep({tv_sec=1, tv_nsec=0}, NULL) = 0
+1713878803.665883 nanosleep({tv_sec=1, tv_nsec=0}, NULL) = 0
+1713878804.666534 nanosleep({tv_sec=1, tv_nsec=0}, NULL) = 0
+1713878805.667173 nanosleep({tv_sec=1, tv_nsec=0}, NULL) = 0
+1713878806.667643 nanosleep({tv_sec=1, tv_nsec=0}, NULL) = 0
+1713878807.668092 nanosleep({tv_sec=1, tv_nsec=0}, NULL) = 0
+1713878808.668527 nanosleep({tv_sec=1, tv_nsec=0}, NULL) = 0
+1713878809.669101 nanosleep({tv_sec=1, tv_nsec=0}, NULL) = 0
+1713878810.669558 nanosleep({tv_sec=1, tv_nsec=0}, NULL) = 0
+1713878811.670036 nanosleep({tv_sec=1, tv_nsec=0}, NULL) = 0
+1713878812.670562 nanosleep({tv_sec=1, tv_nsec=0}, NULL) = 0
+1713878813.671175 nanosleep({tv_sec=1, tv_nsec=0}, NULL) = 0
+1713878814.671804 nanosleep({tv_sec=1, tv_nsec=0}, NULL) = 0
+1713878815.672452 nanosleep({tv_sec=1, tv_nsec=0}, NULL) = 0
+1713878816.672916 nanosleep({tv_sec=1, tv_nsec=0}, NULL) = 0
+1713878817.673379 nanosleep({tv_sec=1, tv_nsec=0}, NULL) = 0
+1713878818.674028 nanosleep({tv_sec=1, tv_nsec=0}, NULL) = 0
+1713878819.674654 nanosleep({tv_sec=1, tv_nsec=0}, NULL) = 0
+1713878820.675230 nanosleep({tv_sec=1, tv_nsec=0}, NULL) = 0
+1713878821.675872 nanosleep({tv_sec=1, tv_nsec=0}, NULL) = 0
+1713878822.676395 nanosleep({tv_sec=1, tv_nsec=0}, NULL) = 0
+1713878823.676837 nanosleep({tv_sec=1, tv_nsec=0}, NULL) = 0
+1713878824.677378 nanosleep({tv_sec=1, tv_nsec=0}, NULL) = 0
+1713878825.684989 nanosleep({tv_sec=1, tv_nsec=0}, NULL) = 0
+1713878826.689181 nanosleep({tv_sec=1, tv_nsec=0}, NULL) = 0
+1713878827.692386 nanosleep({tv_sec=1, tv_nsec=0}, NULL) = 0
+1713878828.693129 nanosleep({tv_sec=1, tv_nsec=0}, NULL) = 0
+1713878829.693566 nanosleep({tv_sec=1, tv_nsec=0}, NULL) = 0
+1713878830.693939 nanosleep({tv_sec=1, tv_nsec=0}, NULL) = 0
+1713878831.694316 nanosleep({tv_sec=1, tv_nsec=0}, NULL) = 0
+1713878832.694673 futex(0x3c7c9f4, FUTEX_CMP_REQUEUE_PRIVATE, 1, 2147483647, 0x3c7c9c8, 4) = 1
+1713878832.694964 futex(0x3c7c9c8, FUTEX_WAKE_PRIVATE, 1) = 0
+1713878832.695273 nanosleep({tv_sec=1, tv_nsec=0}, NULL) = 0
+1713878833.695634 futex(0x3c7c9f4, FUTEX_CMP_REQUEUE_PRIVATE, 1, 2147483647, 0x3c7c9c8, 8) = 1
+1713878833.695914 futex(0x3c7c9c8, FUTEX_WAKE_PRIVATE, 1) = 0
+1713878833.696103 nanosleep({tv_sec=1, tv_nsec=0}, NULL) = 0
+1713878834.696421 futex(0x3c7c9f4, FUTEX_CMP_REQUEUE_PRIVATE, 1, 2147483647, 0x3c7c9c8, 12) = 1
+1713878834.696774 futex(0x3c7c9c8, FUTEX_WAKE_PRIVATE, 1) = 1
+1713878834.697182 nanosleep({tv_sec=1, tv_nsec=0}, NULL) = 0
+1713878835.697600 futex(0x3c7c9f4, FUTEX_CMP_REQUEUE_PRIVATE, 1, 2147483647, 0x3c7c9c8, 16) = 1
+1713878835.697880 futex(0x3c7c9c8, FUTEX_WAKE_PRIVATE, 1) = 0
+1713878835.698083 nanosleep({tv_sec=1, tv_nsec=0}, NULL) = 0
+1713878836.708167 futex(0x3c7c9f4, FUTEX_CMP_REQUEUE_PRIVATE, 1, 2147483647, 0x3c7c9c8, 20) = 1
+1713878836.708425 futex(0x3c7c9c8, FUTEX_WAKE_PRIVATE, 1) = 0
+1713878836.708690 pwrite64(3, "\200\0]r\0\215\0\37\0\0\0B$\0\0\0\0'\33\271\0\0\1-\1\20user47"..., 512, 12240896) = 512
+1713878836.709027 fsync(3)              = 0
+1713878836.711763 io_submit(0x7f4be2912000, 1, [{aio_data=0x3f4f7c0, aio_lio_opcode=IOCB_CMD_PWRITE, aio_fildes=3, aio_buf="\0\0\0\0\0\0\0B\0\0\0\0\0\272\342\37\0\0\0\0\0\272\310\37\0\0\0\0\1\0\0\0"..., aio_nbytes=512, aio_offset=512}]) = 1
+1713878836.713496 sched_yield()         = 0
+1713878836.713862 futex(0x42eea34, FUTEX_WAIT_PRIVATE, 5, NULL) = 0
+1713878836.717430 futex(0x42eea08, FUTEX_WAKE_PRIVATE, 1) = 0
+1713878836.717735 nanosleep({tv_sec=1, tv_nsec=0}, NULL) = 0
+1713878837.718062 futex(0x3c7c9f4, FUTEX_CMP_REQUEUE_PRIVATE, 1, 2147483647, 0x3c7c9c8, 24) = 1
+1713878837.718251 futex(0x3c7c9c8, FUTEX_WAKE_PRIVATE, 1) = 0
+1713878837.718388 nanosleep({tv_sec=1, tv_nsec=0}, NULL) = 0
+1713878838.718700 futex(0x3c7c9f4, FUTEX_CMP_REQUEUE_PRIVATE, 1, 2147483647, 0x3c7c9c8, 28) = 1
+1713878838.718887 futex(0x3c7c9c8, FUTEX_WAKE_PRIVATE, 1) = 0
+1713878838.719031 nanosleep({tv_sec=1, tv_nsec=0}, NULL) = 0
+1713878839.719245 pwrite64(3, "\200\0]t\2\0\19\0\0\0C\377\377\377\4\0\201\202\1\232\360\377\377\377\377\4\0\201\202\1\236"..., 1024, 12241920) = 1024
+1713878839.719387 fsync(3)              = 0
+1713878839.721752 futex(0x3c7c9f4, FUTEX_CMP_REQUEUE_PRIVATE, 1, 2147483647, 0x3c7c9c8, 32) = 1
+1713878839.721958 futex(0x3c7c9c8, FUTEX_WAKE_PRIVATE, 1) = 0
+1713878839.722100 nanosleep({tv_sec=1, tv_nsec=0}, NULL) = 0
+1713878840.722338 pwrite64(3, "\200\0]u\1\16\0\16\0\0\0C\20\37\224\0\2017\0\10\v\0,\4\200\0\0+\246\34\3\0"..., 512, 12242432) = 512
+1713878840.722510 fsync(3)              = 0
+1713878840.735974 futex(0x3c7c9f4, FUTEX_CMP_REQUEUE_PRIVATE, 1, 2147483647, 0x3c7c9c8, 36) = 1
+1713878840.736077 nanosleep({tv_sec=1, tv_nsec=0}, NULL) = 0
+1713878841.736289 futex(0x3c7c9f4, FUTEX_CMP_REQUEUE_PRIVATE, 1, 2147483647, 0x3c7c9c8, 40) = 1
+1713878841.736526 futex(0x3c7c9c8, FUTEX_WAKE_PRIVATE, 1) = 0
+1713878841.736646 nanosleep({tv_sec=1, tv_nsec=0}, NULL) = 0
+1713878842.736936 pwrite64(3, "\200\0]v\2\0\0\17\0\0\0C\0\0000\246\34\3\0\4\0\1\200\4\200\6\200\7\200\0\5\244"..., 1024, 12242944) = 1024
+1713878842.737107 fsync(3)              = 0
+1713878842.750613 futex(0x3c7c9f4, FUTEX_CMP_REQUEUE_PRIVATE, 1, 2147483647, 0x3c7c9c8, 44) = 1
+1713878842.750809 futex(0x3c7c9c8, FUTEX_WAKE_PRIVATE, 1) = 0
+1713878842.750934 nanosleep({tv_sec=1, tv_nsec=0}, NULL) = 0
+1713878843.751133 futex(0x3c7c9f4, FUTEX_CMP_REQUEUE_PRIVATE, 1, 2147483647, 0x3c7c9c8, 48) = 1
+1713878843.751281 futex(0x3c7c9c8, FUTEX_WAKE_PRIVATE, 1) = 0
+1713878843.751455 pwrite64(3, "\200\0]w\1\324\0\34\0\0\0C\0\201\37\0*\201\20\2\0\201\37\0h\201\20\37\224\0\201\37"..., 512, 12243456) = 512
+1713878843.751593 fsync(3)              = 0
+1713878843.765075 io_submit(0x7f4be2912000, 1, [{aio_data=0x3f4f7c0, aio_lio_opcode=IOCB_CMD_PWRITE, aio_fildes=3, aio_buf="\0\0\0\0\0\0\0C\0\0\0\0\0\272\342\215\0\0\0\0\0\272\310\215\0\0\0\0\1\0\0\0"..., aio_nbytes=512, aio_offset=1536}]) = 1
+1713878843.766231 sched_yield()         = 0
+1713878843.766350 futex(0x42eea34, FUTEX_WAIT_PRIVATE, 7, NULL) = 0
+1713878843.768006 futex(0x42eea08, FUTEX_WAIT_PRIVATE, 2, NULL) = -1 EAGAIN (Resource temporarily unavailable)
+1713878843.768156 futex(0x42eea08, FUTEX_WAKE_PRIVATE, 1) = 0
+1713878843.768283 nanosleep({tv_sec=1, tv_nsec=0}, NULL) = 0
+1713878844.768571 pwrite64(3, "\200\0]\205\2\0\0i\0\0\0D\211\2\0\201\211\0T,\4\0\201\211\0,\360\377\377\377\377\2"..., 2048, 12250624) = 2048
+1713878844.768785 fsync(3)              = 0
+1713878844.783388 futex(0x3c7c9f4, FUTEX_CMP_REQUEUE_PRIVATE, 1, 2147483647, 0x3c7c9c8, 58) = 1
+1713878844.783601 futex(0x3c7c9c8, FUTEX_WAKE_PRIVATE, 1) = 0
+1713878844.783707 nanosleep({tv_sec=1, tv_nsec=0}, NULL) = 0
+1713878845.783977 futex(0x3c7c9f4, FUTEX_CMP_REQUEUE_PRIVATE, 1, 2147483647, 0x3c7c9c8, 62) = 1
+1713878845.784148 futex(0x3c7c9c8, FUTEX_WAKE_PRIVATE, 1) = 0
+1713878845.784282 nanosleep({tv_sec=1, tv_nsec=0}, NULL) = 0
+1713878846.784545 futex(0x3c7c9f4, FUTEX_CMP_REQUEUE_PRIVATE, 1, 2147483647, 0x3c7c9c8, 66) = 1
+1713878846.784715 nanosleep({tv_sec=1, tv_nsec=0}, NULL) = 0
+1713878847.785005 futex(0x3c7c9f4, FUTEX_CMP_REQUEUE_PRIVATE, 1, 2147483647, 0x3c7c9c8, 70) = 1
+1713878847.785370 futex(0x3c7c9c8, FUTEX_WAKE_PRIVATE, 1) = 0
+1713878847.785689 nanosleep({tv_sec=1, tv_nsec=0}, NULL) = 0
+1713878848.786028 futex(0x3c7c9f4, FUTEX_CMP_REQUEUE_PRIVATE, 1, 2147483647, 0x3c7c9c8, 74) = 1
+1713878848.786478 futex(0x3c7c9c8, FUTEX_WAKE_PRIVATE, 1) = 1
+1713878848.786831 nanosleep({tv_sec=1, tv_nsec=0}, NULL) = 0
+1713878849.787356 futex(0x3c7c9f4, FUTEX_CMP_REQUEUE_PRIVATE, 1, 2147483647, 0x3c7c9c8, 78) = 1
+1713878849.787609 pwrite64(3, "\200\0]\307\0\177\0\21\0\0\0D\201\261\08\0027\34\0\0\27./mydataba"..., 512, 12284416) = 512
+1713878849.787860 fsync(3)              = 0
+1713878849.790069 io_submit(0x7f4be2912000, 1, [{aio_data=0x3f4f7c0, aio_lio_opcode=IOCB_CMD_PWRITE, aio_fildes=3, aio_buf="\0\0\0\0\0\0\0D\0\0\0\0\0\273\214\21\0\0\0\0\0\273r\21\0\0\0\0\1\0\0\0"..., aio_nbytes=512, aio_offset=512}]) = 1
+1713878849.790856 sched_yield()         = 0
+1713878849.790981 futex(0x42eea34, FUTEX_WAIT_PRIVATE, 9, NULL) = 0
+1713878849.793236 futex(0x42eea08, FUTEX_WAKE_PRIVATE, 1) = 0
+1713878849.793435 nanosleep({tv_sec=1, tv_nsec=0}, NULL) = 0
+1713878850.793844 futex(0x3c7c9f4, FUTEX_CMP_REQUEUE_PRIVATE, 1, 2147483647, 0x3c7c9c8, 82) = 1
+1713878850.794190 pwrite64(3, "\200\0]\307\0\210\0\21\0\0\0E\201\261\08\0027\34\0\0\27./mydataba"..., 512, 12284416) = 512
+1713878850.794974 fsync(3)              = 0
+1713878850.808844 io_submit(0x7f4be2912000, 1, [{aio_data=0x3f4f7c0, aio_lio_opcode=IOCB_CMD_PWRITE, aio_fildes=3, aio_buf="\0\0\0\0\0\0\0E\0\0\0\0\0\273\214\177\0\0\0\0\0\273r\177\0\0\0\0\1\0\0\0"..., aio_nbytes=512, aio_offset=1536}]) = 1
+1713878850.810214 sched_yield()         = 0
+1713878850.810405 futex(0x42eea34, FUTEX_WAIT_PRIVATE, 11, NULL) = 0
+1713878850.812427 futex(0x42eea08, FUTEX_WAKE_PRIVATE, 1) = 0
+1713878850.812564 nanosleep({tv_sec=1, tv_nsec=0}, NULL) = 0
+1713878851.812940 futex(0x3c7c9f4, FUTEX_CMP_REQUEUE_PRIVATE, 1, 2147483647, 0x3c7c9c8, 86) = 1
+1713878851.813136 nanosleep({tv_sec=1, tv_nsec=0}, NULL) = 0
+1713878852.813495 futex(0x3c7c9f4, FUTEX_CMP_REQUEUE_PRIVATE, 1, 2147483647, 0x3c7c9c8, 90) = 1
+1713878852.813675 nanosleep({tv_sec=1, tv_nsec=0}, NULL) = 0
+1713878853.814037 futex(0x3c7c9f4, FUTEX_CMP_REQUEUE_PRIVATE, 1, 2147483647, 0x3c7c9c8, 94) = 1
+1713878853.814177 nanosleep({tv_sec=1, tv_nsec=0}, NULL) = 0
+1713878854.814552 futex(0x3c7c9f4, FUTEX_CMP_REQUEUE_PRIVATE, 1, 2147483647, 0x3c7c9c8, 98) = 1
+1713878854.814879 nanosleep({tv_sec=1, tv_nsec=0}, NULL) = 0
+1713878855.815271 futex(0x3c7c9f4, FUTEX_CMP_REQUEUE_PRIVATE, 1, 2147483647, 0x3c7c9c8, 108) = 1
+1713878855.815424 futex(0x3c7c9c8, FUTEX_WAKE_PRIVATE, 1) = 0
+1713878855.815515 nanosleep({tv_sec=1, tv_nsec=0}, NULL) = 0
+1713878856.815879 futex(0x3c7c9f4, FUTEX_CMP_REQUEUE_PRIVATE, 1, 2147483647, 0x3c7c9c8, 112) = 1
+1713878856.816021 nanosleep({tv_sec=1, tv_nsec=0}, NULL) = 0
+1713878857.816381 futex(0x3c7c9f4, FUTEX_CMP_REQUEUE_PRIVATE, 1, 2147483647, 0x3c7c9c8, 116) = 1
+1713878857.816555 pwrite64(3, "\200\0]\315\0\242\0P\0\0\0F\200\372\08\201\263\2\0\200\372\0<x\4\0\201\263\0x\360"..., 512, 12287488) = 512
+1713878857.816743 fsync(3)              = 0
+1713878857.830217 io_submit(0x7f4be2912000, 1, [{aio_data=0x3f4f7c0, aio_lio_opcode=IOCB_CMD_PWRITE, aio_fildes=3, aio_buf="\0\0\0\0\0\0\0F\0\0\0\0\0\273\230P\0\0\0\0\0\273~P\0\0\0\0\1\0\0\0"..., aio_nbytes=512, aio_offset=512}]) = 1
+1713878857.831305 sched_yield()         = 0
+1713878857.831406 futex(0x42eea34, FUTEX_WAIT_PRIVATE, 13, NULL) = 0
+1713878857.833795 futex(0x42eea08, FUTEX_WAIT_PRIVATE, 2, NULL) = 0
+1713878857.834297 futex(0x42eea08, FUTEX_WAKE_PRIVATE, 1) = 0
+1713878857.834396 nanosleep({tv_sec=1, tv_nsec=0}, NULL) = 0
+1713878858.834611 futex(0x3c7c9f4, FUTEX_CMP_REQUEUE_PRIVATE, 1, 2147483647, 0x3c7c9c8, 120) = 1
+1713878858.834774 futex(0x3c7c9c8, FUTEX_WAKE_PRIVATE, 1) = 0
+1713878858.834913 pwrite64(3, "\200\0]\315\0\253\0P\0\0\0G\200\372\08\201\263\2\0\200\372\0<x\4\0\201\263\0x\360"..., 512, 12287488) = 512
+1713878858.835108 fsync(3)              = 0
+1713878858.848657 io_submit(0x7f4be2912000, 1, [{aio_data=0x3f4f7c0, aio_lio_opcode=IOCB_CMD_PWRITE, aio_fildes=3, aio_buf="\0\0\0\0\0\0\0G\0\0\0\0\0\273\230\242\0\0\0\0\0\273~\242\0\0\0\0\1\0\0\0"..., aio_nbytes=512, aio_offset=1536}]) = 1
+1713878858.849583 sched_yield()         = 0
+1713878858.849671 futex(0x42eea34, FUTEX_WAIT_PRIVATE, 15, NULL) = 0
+1713878858.851431 futex(0x42eea08, FUTEX_WAIT_PRIVATE, 2, NULL) = -1 EAGAIN (Resource temporarily unavailable)
+1713878858.851515 futex(0x42eea08, FUTEX_WAKE_PRIVATE, 1) = 0
+1713878858.851601 nanosleep({tv_sec=1, tv_nsec=0}, NULL) = 0
+1713878859.851984 futex(0x3c7c9f4, FUTEX_CMP_REQUEUE_PRIVATE, 1, 2147483647, 0x3c7c9c8, 124) = 1
+1713878859.852093 nanosleep({tv_sec=1, tv_nsec=0}, NULL) = 0
+1713878860.852533 futex(0x3c7c9f4, FUTEX_CMP_REQUEUE_PRIVATE, 1, 2147483647, 0x3c7c9c8, 128) = 1
+1713878860.852949 nanosleep({tv_sec=1, tv_nsec=0}, NULL) = 0
+1713878861.853299 futex(0x3c7c9f4, FUTEX_CMP_REQUEUE_PRIVATE, 1, 2147483647, 0x3c7c9c8, 132) = 1
+1713878861.853526 nanosleep({tv_sec=1, tv_nsec=0}, NULL) = 0
+1713878862.853923 futex(0x3c7c9f4, FUTEX_CMP_REQUEUE_PRIVATE, 1, 2147483647, 0x3c7c9c8, 136) = 1
+1713878862.854256 nanosleep({tv_sec=1, tv_nsec=0}, NULL) = 0
+1713878863.854785 futex(0x3c7c9f4, FUTEX_CMP_REQUEUE_PRIVATE, 1, 2147483647, 0x3c7c9c8, 140) = 1
+1713878863.855012 nanosleep({tv_sec=1, tv_nsec=0}, NULL) = 0
+1713878864.855615 futex(0x3c7c9f4, FUTEX_CMP_REQUEUE_PRIVATE, 1, 2147483647, 0x3c7c9c8, 144) = 1
+1713878864.856002 futex(0x3c7c9c8, FUTEX_WAKE_PRIVATE, 1) = 0
+1713878864.856139 nanosleep({tv_sec=1, tv_nsec=0}, NULL) = 0
+1713878865.856557 futex(0x3c7c9f4, FUTEX_CMP_REQUEUE_PRIVATE, 1, 2147483647, 0x3c7c9c8, 148) = 1
+1713878865.856765 nanosleep({tv_sec=1, tv_nsec=0}, NULL) = 0
+1713878866.857211 futex(0x3c7c9f4, FUTEX_CMP_REQUEUE_PRIVATE, 1, 2147483647, 0x3c7c9c8, 152) = 1
+1713878866.857534 nanosleep({tv_sec=1, tv_nsec=0}, NULL) = 0
+1713878867.857973 futex(0x3c7c9f4, FUTEX_CMP_REQUEUE_PRIVATE, 1, 2147483647, 0x3c7c9c8, 156) = 1
+1713878867.858188 futex(0x3c7c9c8, FUTEX_WAKE_PRIVATE, 1) = 0
+1713878867.858343 nanosleep({tv_sec=1, tv_nsec=0}, NULL) = 0
+1713878868.858799 futex(0x3c7c9f4, FUTEX_CMP_REQUEUE_PRIVATE, 1, 2147483647, 0x3c7c9c8, 160) = 1
+1713878868.858991 nanosleep({tv_sec=1, tv_nsec=0}, NULL) = 0
+1713878869.859309 futex(0x3c7c9f4, FUTEX_CMP_REQUEUE_PRIVATE, 1, 2147483647, 0x3c7c9c8, 164) = 1
+1713878869.859478 nanosleep({tv_sec=1, tv_nsec=0}, NULL) = 0
+1713878870.860075 futex(0x3c7c9f4, FUTEX_CMP_REQUEUE_PRIVATE, 1, 2147483647, 0x3c7c9c8, 168) = 1
+1713878870.860652 nanosleep({tv_sec=1, tv_nsec=0}, NULL) = 0
+1713878871.861180 futex(0x3c7c9f4, FUTEX_CMP_REQUEUE_PRIVATE, 1, 2147483647, 0x3c7c9c8, 172) = 1
+1713878871.861728 futex(0x3c7c9c8, FUTEX_WAKE_PRIVATE, 1) = 0
+1713878871.862017 nanosleep({tv_sec=1, tv_nsec=0}, NULL) = 0
+1713878872.862489 futex(0x3c7c9f4, FUTEX_CMP_REQUEUE_PRIVATE, 1, 2147483647, 0x3c7c9c8, 176) = 1
+1713878872.862755 nanosleep({tv_sec=1, tv_nsec=0}, NULL) = 0
+1713878873.863307 futex(0x3c7c9f4, FUTEX_CMP_REQUEUE_PRIVATE, 1, 2147483647, 0x3c7c9c8, 180) = 1
+1713878873.863812 nanosleep({tv_sec=1, tv_nsec=0}, NULL) = 0
+1713878874.864337 futex(0x3c7c9f4, FUTEX_CMP_REQUEUE_PRIVATE, 1, 2147483647, 0x3c7c9c8, 184) = 1
+1713878874.864580 nanosleep({tv_sec=1, tv_nsec=0}, NULL) = 0
+1713878875.865048 futex(0x3c7c9f4, FUTEX_CMP_REQUEUE_PRIVATE, 1, 2147483647, 0x3c7c9c8, 188) = 1
+1713878875.865233 nanosleep({tv_sec=1, tv_nsec=0}, NULL) = 0
+1713878876.865796 futex(0x3c7c9f4, FUTEX_CMP_REQUEUE_PRIVATE, 1, 2147483647, 0x3c7c9c8, 192) = 1
+1713878876.866308 futex(0x3c7c9c8, FUTEX_WAKE_PRIVATE, 1) = 0
+1713878876.866586 nanosleep({tv_sec=1, tv_nsec=0}, NULL) = 0
+1713878877.867231 futex(0x3c7c9f4, FUTEX_CMP_REQUEUE_PRIVATE, 1, 2147483647, 0x3c7c9c8, 196) = 1
+1713878877.867632 futex(0x3c7c9c8, FUTEX_WAKE_PRIVATE, 1) = 1
+1713878877.868125 nanosleep({tv_sec=1, tv_nsec=0}, NULL) = 0
+1713878878.868415 futex(0x3c7c9f4, FUTEX_CMP_REQUEUE_PRIVATE, 1, 2147483647, 0x3c7c9c8, 200) = 1
+1713878878.868564 nanosleep({tv_sec=1, tv_nsec=0}, NULL) = 0
+1713878879.869001 futex(0x3c7c9f4, FUTEX_CMP_REQUEUE_PRIVATE, 1, 2147483647, 0x3c7c9c8, 204) = 1
+1713878879.869282 futex(0x3c7c9c8, FUTEX_WAKE_PRIVATE, 1) = 0
+1713878879.869446 nanosleep({tv_sec=1, tv_nsec=0}, NULL) = 0
+1713878880.869900 futex(0x3c7c9f4, FUTEX_CMP_REQUEUE_PRIVATE, 1, 2147483647, 0x3c7c9c8, 208) = 1
+1713878880.870352 nanosleep({tv_sec=1, tv_nsec=0}, NULL) = 0
+1713878881.870900 futex(0x3c7c9f4, FUTEX_CMP_REQUEUE_PRIVATE, 1, 2147483647, 0x3c7c9c8, 212) = 1
+1713878881.871425 nanosleep({tv_sec=1, tv_nsec=0}, NULL) = 0
+1713878882.872142 futex(0x3c7c9f4, FUTEX_CMP_REQUEUE_PRIVATE, 1, 2147483647, 0x3c7c9c8, 216) = 1
+1713878882.872443 nanosleep({tv_sec=1, tv_nsec=0}, NULL) = 0
+1713878883.872752 futex(0x3c7c9f4, FUTEX_CMP_REQUEUE_PRIVATE, 1, 2147483647, 0x3c7c9c8, 220) = 1
+1713878883.873009 nanosleep({tv_sec=1, tv_nsec=0}, NULL) = 0
+1713878884.873548 futex(0x3c7c9f4, FUTEX_CMP_REQUEUE_PRIVATE, 1, 2147483647, 0x3c7c9c8, 224) = 1
+1713878884.873794 nanosleep({tv_sec=1, tv_nsec=0}, NULL) = 0
+1713878885.874249 futex(0x3c7c9f4, FUTEX_CMP_REQUEUE_PRIVATE, 1, 2147483647, 0x3c7c9c8, 228) = 1
+1713878885.874566 nanosleep({tv_sec=1, tv_nsec=0}, NULL) = 0
+1713878886.875060 futex(0x3c7c9f4, FUTEX_CMP_REQUEUE_PRIVATE, 1, 2147483647, 0x3c7c9c8, 232) = 1
+1713878886.875253 nanosleep({tv_sec=1, tv_nsec=0}, NULL) = 0
+1713878887.875655 futex(0x3c7c9f4, FUTEX_CMP_REQUEUE_PRIVATE, 1, 2147483647, 0x3c7c9c8, 236) = 1
+1713878887.875865 nanosleep({tv_sec=1, tv_nsec=0}, NULL) = 0
+1713878888.876252 futex(0x3c7c9f4, FUTEX_CMP_REQUEUE_PRIVATE, 1, 2147483647, 0x3c7c9c8, 240) = 1
+1713878888.876398 nanosleep({tv_sec=1, tv_nsec=0}, NULL) = 0
+1713878889.876751 futex(0x3c7c9f4, FUTEX_CMP_REQUEUE_PRIVATE, 1, 2147483647, 0x3c7c9c8, 244) = 1
+1713878889.876987 nanosleep({tv_sec=1, tv_nsec=0},  <detached ...>

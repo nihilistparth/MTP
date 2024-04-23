@@ -1,6 +1,31 @@
 import pandas as pd
 import numpy as np
 # from parse_logs import parse_logs
+def overlap(a, b, theta, dmin, dmax):
+    amin = a - theta
+    amax = a + theta
+    bmin = b - theta
+    bmax = b + theta
+    alpha_min = amin + dmin
+    alpha_max = amax + dmax
+
+    if alpha_min <= bmax and bmin <= alpha_max:
+        return True
+    else:
+        return False
+
+def co_occur(log, s, s_prime, l):
+    count = 0
+    for i in range(len(log)):
+        if log[i] == s:
+            for j in range(i+1, min(i+l+1, len(log))):
+                if log[j] == s_prime:
+                    count += 1
+                    break
+    return count
+
+def count(log, s):
+    return log.count(s)
 
 def viterbi(observed_states):
     """
@@ -35,13 +60,15 @@ if __name__ == "__main__":
     log_data = pd.read_csv('combined_logs.csv')
 
     # states based on unique combinations \
-    states = log_data.drop_duplicates(subset=['machine_id', 'container_id', 'process_id', 'parent_process_id', 'user_id', 'system_call', 'arguments'])
-
+    columns_for_state = ['machine_id', 'container_id', 'process_id', 'parent_process_id', 'user_id', 'system_call', 'arguments']
+    states = log_data.drop_duplicates(subset=columns_for_state).reset_index(drop=True)
     # mp each state to an index
-    state_index = {state: index for index, state in enumerate(states.itertuples(index=False))}
-    output_file = 'state_space.txt'
+    # state_index = {state: index for index, state in enumerate(states.itertuples(index=False))}
+    state_index = {tuple(state): index for index, state in enumerate(states[columns_for_state].values)}
 
-# Open the file in write mode and write each key-value pair
+    output_file = 'state_space.txt'
+    # print(state_index)
+    # Open the file in write mode and write each key-value pair
     # with open(output_file, 'w') as file:
     #     for key, value in state_index.items():
     #         file.write(f"{key}: {value}\n")
@@ -49,9 +76,11 @@ if __name__ == "__main__":
     
     # initial state vector
     initial_state_prob = np.zeros(len(state_index))
-    initial_state_prob[0] = 1  # Assuming the first state is the starting point
+    initial_state_prob[0] = 0.5  # Assuming the first state is the starting point mid1
+    initial_state_prob[305] = 0.5  # Assuming the first state is the starting point mid2
+    # assign 1/n to machine 2's first even as well 
 
-      # transition probability matrix
+    # transition probability matrix
     transition_matrix = np.zeros((len(state_index), len(state_index)))
 
     # Populate the transition matrix based on log data (simplified approach)
@@ -60,34 +89,34 @@ if __name__ == "__main__":
         next_state = log_data.iloc[i + 1]
         
      
-        current_state_key = (current_state.machine_id, current_state.container_id, current_state.process_id, 
-                            current_state.parent_process_id, current_state.user_id, 
-                            current_state.system_call, current_state.arguments)
-        
-
-        next_state_key = (next_state.machine_id, next_state.container_id, next_state.process_id, 
-                        next_state.parent_process_id, next_state.user_id, 
-                        next_state.system_call, next_state.arguments)
-        
+        current_state_key = tuple(current_state[col] for col in columns_for_state)
+        next_state_key = tuple(next_state[col] for col in columns_for_state)
         # print(current_state_key,next_state_key)
         # Check if the current state key is in the state index
         if current_state_key not in state_index:
+            # print(current_state_key)
             print("yes")
             continue 
 
         if next_state_key not in state_index:
             # Handle the missing key, 
+            print("no")
             continue  
-
+        
+        # print(("found"))
         current_index = state_index[current_state_key]
         next_index = state_index[next_state_key]
-        print("no")   
-        # print("=>",current_state,next_state)
+        
+        #if both on same machine
+
+        #different machines
+        
+        
     # Normalize the transition matrix
     row_sums = transition_matrix.sum(axis=1, keepdims=True)
     transition_matrix = np.divide(transition_matrix, row_sums, out=np.zeros_like(transition_matrix), where=row_sums != 0)
     # can be used like this
-    observed_states =  [8,25]  # examples of observed states
+    observed_states =  [30,45]  # examples of observed states
     root_cause_path = viterbi(observed_states)
     print("Most likely path of states leading to the issue: \n", root_cause_path,"\n")
 

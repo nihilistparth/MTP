@@ -7,8 +7,8 @@ steps to run
 attaching strace to http server
 -> sudo docker run -it \
     --name strace_server \
-    --pid=container:code_web_1 \
-    --net=container:code_web_1 \
+    --pid=container:code-web-1 \
+    --net=container:code-web-1 \
     --cap-add sys_admin \
     --cap-add sys_ptrace \
     -v /home/parth/Desktop/mtp/code/strace_logs_server:/strace_logs_server \
@@ -16,12 +16,12 @@ attaching strace to http server
 '
 -> sudo docker run -it \
     --name strace_db \
-    --pid=container:code_db_1 \
-    --net=container:code_db_1 \
+    --pid=container:code-db-1 \
+    --net=container:code-db-1 \
     --cap-add sys_admin \
     --cap-add sys_ptrace \
     -v /home/parth/Desktop/mtp/code/strace_logs_db:/strace_logs_db \
-    strace /bin/sh -c "strace -ff -ttt -v -e trace=network -e \!poll -o /strace_logs_db/strace_output -p 16"
+    strace /bin/sh -c "strace -ff -ttt -v -e trace=network -e \!poll -o /strace_logs_db/strace_output -p 1"
 -> find process id of server and db
 sudo docker exec -it code_web_1 bin/bash
 ps aux
@@ -83,3 +83,6 @@ remaining
 -> dont download everytime (dockerfile)
 -> automate and github(remember) 
 -> algorithm check (final)
+-> fragmentation in the logs (check ebpfdockerinspector there would be two markers) (not understood fully)
+-> literature survery site some of machine learning papers that perdict the log structure, viterbi, hmm
+-> bound the strace to only generate logs required

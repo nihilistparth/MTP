@@ -1,1 +1,1 @@
-1711458104.049323 rt_sigtimedwait([HUP QUIT TERM], NULL, NULL, 8 <detached ...>
+1713878747.632662 futex(0x1d897a4, FUTEX_WAIT_PRIVATE, 1, NULL <detached ...>

@@ -1,76 +1,354 @@
-1711458104.049550 io_getevents(0x7fa22f4b7000, 1, 256, [], {tv_sec=0, tv_nsec=500000000}) = 0
-1711458104.550269 io_getevents(0x7fa22f4b7000, 1, 256, [], {tv_sec=0, tv_nsec=500000000}) = 0
-1711458105.051446 io_getevents(0x7fa22f4b7000, 1, 256, [], {tv_sec=0, tv_nsec=500000000}) = 0
-1711458105.552108 io_getevents(0x7fa22f4b7000, 1, 256, [], {tv_sec=0, tv_nsec=500000000}) = 0
-1711458106.052299 io_getevents(0x7fa22f4b7000, 1, 256, [], {tv_sec=0, tv_nsec=500000000}) = 0
-1711458106.552457 io_getevents(0x7fa22f4b7000, 1, 256, [], {tv_sec=0, tv_nsec=500000000}) = 0
-1711458107.053159 io_getevents(0x7fa22f4b7000, 1, 256, [], {tv_sec=0, tv_nsec=500000000}) = 0
-1711458107.553522 io_getevents(0x7fa22f4b7000, 1, 256, [], {tv_sec=0, tv_nsec=500000000}) = 0
-1711458108.053717 io_getevents(0x7fa22f4b7000, 1, 256, [], {tv_sec=0, tv_nsec=500000000}) = 0
-1711458108.553853 io_getevents(0x7fa22f4b7000, 1, 256, [], {tv_sec=0, tv_nsec=500000000}) = 0
-1711458109.054149 io_getevents(0x7fa22f4b7000, 1, 256, [], {tv_sec=0, tv_nsec=500000000}) = 0
-1711458109.554353 io_getevents(0x7fa22f4b7000, 1, 256, [], {tv_sec=0, tv_nsec=500000000}) = 0
-1711458110.054638 io_getevents(0x7fa22f4b7000, 1, 256, [], {tv_sec=0, tv_nsec=500000000}) = 0
-1711458110.554929 io_getevents(0x7fa22f4b7000, 1, 256, [], {tv_sec=0, tv_nsec=500000000}) = 0
-1711458111.055134 io_getevents(0x7fa22f4b7000, 1, 256, [], {tv_sec=0, tv_nsec=500000000}) = 0
-1711458111.555545 io_getevents(0x7fa22f4b7000, 1, 256, [], {tv_sec=0, tv_nsec=500000000}) = 0
-1711458112.055831 io_getevents(0x7fa22f4b7000, 1, 256, [], {tv_sec=0, tv_nsec=500000000}) = 0
-1711458112.556075 io_getevents(0x7fa22f4b7000, 1, 256, [], {tv_sec=0, tv_nsec=500000000}) = 0
-1711458113.056315 io_getevents(0x7fa22f4b7000, 1, 256, [], {tv_sec=0, tv_nsec=500000000}) = 0
-1711458113.556626 io_getevents(0x7fa22f4b7000, 1, 256, [], {tv_sec=0, tv_nsec=500000000}) = 0
-1711458114.056830 io_getevents(0x7fa22f4b7000, 1, 256, [], {tv_sec=0, tv_nsec=500000000}) = 0
-1711458114.557557 io_getevents(0x7fa22f4b7000, 1, 256, [], {tv_sec=0, tv_nsec=500000000}) = 0
-1711458115.058165 io_getevents(0x7fa22f4b7000, 1, 256, [], {tv_sec=0, tv_nsec=500000000}) = 0
-1711458115.558503 io_getevents(0x7fa22f4b7000, 1, 256, [], {tv_sec=0, tv_nsec=500000000}) = 0
-1711458116.059057 io_getevents(0x7fa22f4b7000, 1, 256, [], {tv_sec=0, tv_nsec=500000000}) = 0
-1711458116.559584 io_getevents(0x7fa22f4b7000, 1, 256, [], {tv_sec=0, tv_nsec=500000000}) = 0
-1711458117.059978 io_getevents(0x7fa22f4b7000, 1, 256, [], {tv_sec=0, tv_nsec=500000000}) = 0
-1711458117.560562 io_getevents(0x7fa22f4b7000, 1, 256, [], {tv_sec=0, tv_nsec=500000000}) = 0
-1711458118.060995 io_getevents(0x7fa22f4b7000, 1, 256, [], {tv_sec=0, tv_nsec=500000000}) = 0
-1711458118.561300 io_getevents(0x7fa22f4b7000, 1, 256, [], {tv_sec=0, tv_nsec=500000000}) = 0
-1711458119.061660 io_getevents(0x7fa22f4b7000, 1, 256, [], {tv_sec=0, tv_nsec=500000000}) = 0
-1711458119.562181 io_getevents(0x7fa22f4b7000, 1, 256, [], {tv_sec=0, tv_nsec=500000000}) = 0
-1711458120.062552 io_getevents(0x7fa22f4b7000, 1, 256, [], {tv_sec=0, tv_nsec=500000000}) = 0
-1711458120.562856 io_getevents(0x7fa22f4b7000, 1, 256, [], {tv_sec=0, tv_nsec=500000000}) = 0
-1711458121.063330 io_getevents(0x7fa22f4b7000, 1, 256, [], {tv_sec=0, tv_nsec=500000000}) = 0
-1711458121.563532 io_getevents(0x7fa22f4b7000, 1, 256, [], {tv_sec=0, tv_nsec=500000000}) = 0
-1711458122.063864 io_getevents(0x7fa22f4b7000, 1, 256, [], {tv_sec=0, tv_nsec=500000000}) = 0
-1711458122.564478 io_getevents(0x7fa22f4b7000, 1, 256, [], {tv_sec=0, tv_nsec=500000000}) = 0
-1711458123.064925 io_getevents(0x7fa22f4b7000, 1, 256, [], {tv_sec=0, tv_nsec=500000000}) = 0
-1711458123.565365 io_getevents(0x7fa22f4b7000, 1, 256, [], {tv_sec=0, tv_nsec=500000000}) = 0
-1711458124.065891 io_getevents(0x7fa22f4b7000, 1, 256, [], {tv_sec=0, tv_nsec=500000000}) = 0
-1711458124.566159 io_getevents(0x7fa22f4b7000, 1, 256, [], {tv_sec=0, tv_nsec=500000000}) = 0
-1711458125.066416 io_getevents(0x7fa22f4b7000, 1, 256, [], {tv_sec=0, tv_nsec=500000000}) = 0
-1711458125.566756 io_getevents(0x7fa22f4b7000, 1, 256, [], {tv_sec=0, tv_nsec=500000000}) = 0
-1711458126.067590 io_getevents(0x7fa22f4b7000, 1, 256, [], {tv_sec=0, tv_nsec=500000000}) = 0
-1711458126.568293 io_getevents(0x7fa22f4b7000, 1, 256, [], {tv_sec=0, tv_nsec=500000000}) = 0
-1711458127.068533 io_getevents(0x7fa22f4b7000, 1, 256, [], {tv_sec=0, tv_nsec=500000000}) = 0
-1711458127.568868 io_getevents(0x7fa22f4b7000, 1, 256, [], {tv_sec=0, tv_nsec=500000000}) = 0
-1711458128.069777 io_getevents(0x7fa22f4b7000, 1, 256, [], {tv_sec=0, tv_nsec=500000000}) = 0
-1711458128.570519 io_getevents(0x7fa22f4b7000, 1, 256, [], {tv_sec=0, tv_nsec=500000000}) = 0
-1711458129.071108 io_getevents(0x7fa22f4b7000, 1, 256, [], {tv_sec=0, tv_nsec=500000000}) = 0
-1711458129.571609 io_getevents(0x7fa22f4b7000, 1, 256, [], {tv_sec=0, tv_nsec=500000000}) = 0
-1711458130.071826 io_getevents(0x7fa22f4b7000, 1, 256, [], {tv_sec=0, tv_nsec=500000000}) = 0
-1711458130.571934 io_getevents(0x7fa22f4b7000, 1, 256, [], {tv_sec=0, tv_nsec=500000000}) = 0
-1711458131.072590 io_getevents(0x7fa22f4b7000, 1, 256, [], {tv_sec=0, tv_nsec=500000000}) = 0
-1711458131.573053 io_getevents(0x7fa22f4b7000, 1, 256, [{data=0x7fa22f4bc010, obj=0x7fa22f4bc0a0, res=16384, res2=0}], {tv_sec=0, tv_nsec=500000000}) = 1
-1711458131.688025 io_getevents(0x7fa22f4b7000, 1, 256, [{data=0x7fa22f4bc110, obj=0x7fa22f4bc1a0, res=16384, res2=0}, {data=0x7fa22f4bc210, obj=0x7fa22f4bc2a0, res=16384, res2=0}], {tv_sec=0, tv_nsec=500000000}) = 2
-1711458131.688321 io_getevents(0x7fa22f4b7000, 1, 256, [{data=0x7fa22f4bc010, obj=0x7fa22f4bc0a0, res=16384, res2=0}, {data=0x7fa22f4bc110, obj=0x7fa22f4bc1a0, res=16384, res2=0}], {tv_sec=0, tv_nsec=500000000}) = 2
-1711458131.688548 io_getevents(0x7fa22f4b7000, 1, 256, [{data=0x7fa22f4bc210, obj=0x7fa22f4bc2a0, res=16384, res2=0}, {data=0x7fa22f4bc310, obj=0x7fa22f4bc3a0, res=16384, res2=0}, {data=0x7fa22f4bc410, obj=0x7fa22f4bc4a0, res=16384, res2=0}], {tv_sec=0, tv_nsec=500000000}) = 3
-1711458131.688628 io_getevents(0x7fa22f4b7000, 1, 256, [{data=0x7fa22f4bc010, obj=0x7fa22f4bc0a0, res=16384, res2=0}], {tv_sec=0, tv_nsec=500000000}) = 1
-1711458131.688695 fsync(18)             = 0
-1711458131.690641 fsync(17)             = 0
-1711458131.691642 fsync(22)             = 0
-1711458131.692626 fsync(9)              = 0
-1711458131.693495 io_getevents(0x7fa22f4b7000, 1, 256, [], {tv_sec=0, tv_nsec=500000000}) = 0
-1711458132.193649 io_getevents(0x7fa22f4b7000, 1, 256, [], {tv_sec=0, tv_nsec=500000000}) = 0
-1711458132.693809 io_getevents(0x7fa22f4b7000, 1, 256, [], {tv_sec=0, tv_nsec=500000000}) = 0
-1711458133.193959 io_getevents(0x7fa22f4b7000, 1, 256, [], {tv_sec=0, tv_nsec=500000000}) = 0
-1711458133.694216 io_getevents(0x7fa22f4b7000, 1, 256, [], {tv_sec=0, tv_nsec=500000000}) = 0
-1711458134.194580 io_getevents(0x7fa22f4b7000, 1, 256, [], {tv_sec=0, tv_nsec=500000000}) = 0
-1711458134.695136 io_getevents(0x7fa22f4b7000, 1, 256, [], {tv_sec=0, tv_nsec=500000000}) = 0
-1711458135.195844 io_getevents(0x7fa22f4b7000, 1, 256, [], {tv_sec=0, tv_nsec=500000000}) = 0
-1711458135.696118 io_getevents(0x7fa22f4b7000, 1, 256, [], {tv_sec=0, tv_nsec=500000000}) = 0
-1711458136.196400 io_getevents(0x7fa22f4b7000, 1, 256, [], {tv_sec=0, tv_nsec=500000000}) = 0
-1711458136.696925 io_getevents(0x7fa22f4b7000, 1, 256, [], {tv_sec=0, tv_nsec=500000000}) = 0
-1711458137.197611 io_getevents(0x7fa22f4b7000, 1, 256,  <detached ...>
+1713878747.633256 io_getevents(0x7f4bd4fb9000, 1, 256, [], {tv_sec=0, tv_nsec=500000000}) = 0
+1713878748.133849 io_getevents(0x7f4bd4fb9000, 1, 256, [], {tv_sec=0, tv_nsec=500000000}) = 0
+1713878748.634333 io_getevents(0x7f4bd4fb9000, 1, 256, [], {tv_sec=0, tv_nsec=500000000}) = 0
+1713878749.135020 io_getevents(0x7f4bd4fb9000, 1, 256, [], {tv_sec=0, tv_nsec=500000000}) = 0
+1713878749.635582 io_getevents(0x7f4bd4fb9000, 1, 256, [], {tv_sec=0, tv_nsec=500000000}) = 0
+1713878750.135978 io_getevents(0x7f4bd4fb9000, 1, 256, [], {tv_sec=0, tv_nsec=500000000}) = 0
+1713878750.636342 io_getevents(0x7f4bd4fb9000, 1, 256, [], {tv_sec=0, tv_nsec=500000000}) = 0
+1713878751.136894 io_getevents(0x7f4bd4fb9000, 1, 256, [], {tv_sec=0, tv_nsec=500000000}) = 0
+1713878751.637468 io_getevents(0x7f4bd4fb9000, 1, 256, [], {tv_sec=0, tv_nsec=500000000}) = 0
+1713878752.137899 io_getevents(0x7f4bd4fb9000, 1, 256, [], {tv_sec=0, tv_nsec=500000000}) = 0
+1713878752.638347 io_getevents(0x7f4bd4fb9000, 1, 256, [], {tv_sec=0, tv_nsec=500000000}) = 0
+1713878753.139634 io_getevents(0x7f4bd4fb9000, 1, 256, [], {tv_sec=0, tv_nsec=500000000}) = 0
+1713878753.640297 io_getevents(0x7f4bd4fb9000, 1, 256, [], {tv_sec=0, tv_nsec=500000000}) = 0
+1713878754.140767 io_getevents(0x7f4bd4fb9000, 1, 256, [], {tv_sec=0, tv_nsec=500000000}) = 0
+1713878754.641209 io_getevents(0x7f4bd4fb9000, 1, 256, [], {tv_sec=0, tv_nsec=500000000}) = 0
+1713878755.141529 io_getevents(0x7f4bd4fb9000, 1, 256, [], {tv_sec=0, tv_nsec=500000000}) = 0
+1713878755.641756 io_getevents(0x7f4bd4fb9000, 1, 256, [], {tv_sec=0, tv_nsec=500000000}) = 0
+1713878756.142287 io_getevents(0x7f4bd4fb9000, 1, 256, [], {tv_sec=0, tv_nsec=500000000}) = 0
+1713878756.642586 io_getevents(0x7f4bd4fb9000, 1, 256, [], {tv_sec=0, tv_nsec=500000000}) = 0
+1713878757.142887 io_getevents(0x7f4bd4fb9000, 1, 256, [], {tv_sec=0, tv_nsec=500000000}) = 0
+1713878757.643367 io_getevents(0x7f4bd4fb9000, 1, 256, [], {tv_sec=0, tv_nsec=500000000}) = 0
+1713878758.143917 io_getevents(0x7f4bd4fb9000, 1, 256, [], {tv_sec=0, tv_nsec=500000000}) = 0
+1713878758.644699 io_getevents(0x7f4bd4fb9000, 1, 256, [], {tv_sec=0, tv_nsec=500000000}) = 0
+1713878759.145350 io_getevents(0x7f4bd4fb9000, 1, 256, [], {tv_sec=0, tv_nsec=500000000}) = 0
+1713878759.645951 io_getevents(0x7f4bd4fb9000, 1, 256, [], {tv_sec=0, tv_nsec=500000000}) = 0
+1713878760.146409 io_getevents(0x7f4bd4fb9000, 1, 256, [], {tv_sec=0, tv_nsec=500000000}) = 0
+1713878760.647028 io_getevents(0x7f4bd4fb9000, 1, 256, [], {tv_sec=0, tv_nsec=500000000}) = 0
+1713878761.147536 io_getevents(0x7f4bd4fb9000, 1, 256, [], {tv_sec=0, tv_nsec=500000000}) = 0
+1713878761.647937 io_getevents(0x7f4bd4fb9000, 1, 256, [], {tv_sec=0, tv_nsec=500000000}) = 0
+1713878762.148281 io_getevents(0x7f4bd4fb9000, 1, 256, [], {tv_sec=0, tv_nsec=500000000}) = 0
+1713878762.648666 io_getevents(0x7f4bd4fb9000, 1, 256, [], {tv_sec=0, tv_nsec=500000000}) = 0
+1713878763.149438 io_getevents(0x7f4bd4fb9000, 1, 256, [], {tv_sec=0, tv_nsec=500000000}) = 0
+1713878763.650014 io_getevents(0x7f4bd4fb9000, 1, 256, [], {tv_sec=0, tv_nsec=500000000}) = 0
+1713878764.150498 io_getevents(0x7f4bd4fb9000, 1, 256, [], {tv_sec=0, tv_nsec=500000000}) = 0
+1713878764.650825 io_getevents(0x7f4bd4fb9000, 1, 256, [], {tv_sec=0, tv_nsec=500000000}) = 0
+1713878765.151297 io_getevents(0x7f4bd4fb9000, 1, 256, [], {tv_sec=0, tv_nsec=500000000}) = 0
+1713878765.651686 io_getevents(0x7f4bd4fb9000, 1, 256, [], {tv_sec=0, tv_nsec=500000000}) = 0
+1713878766.152020 io_getevents(0x7f4bd4fb9000, 1, 256, [], {tv_sec=0, tv_nsec=500000000}) = 0
+1713878766.652535 io_getevents(0x7f4bd4fb9000, 1, 256, [], {tv_sec=0, tv_nsec=500000000}) = 0
+1713878767.153317 io_getevents(0x7f4bd4fb9000, 1, 256, [], {tv_sec=0, tv_nsec=500000000}) = 0
+1713878767.653936 io_getevents(0x7f4bd4fb9000, 1, 256, [], {tv_sec=0, tv_nsec=500000000}) = 0
+1713878768.154618 io_getevents(0x7f4bd4fb9000, 1, 256, [], {tv_sec=0, tv_nsec=500000000}) = 0
+1713878768.655199 io_getevents(0x7f4bd4fb9000, 1, 256, [], {tv_sec=0, tv_nsec=500000000}) = 0
+1713878769.155776 io_getevents(0x7f4bd4fb9000, 1, 256, [], {tv_sec=0, tv_nsec=500000000}) = 0
+1713878769.656097 io_getevents(0x7f4bd4fb9000, 1, 256, [], {tv_sec=0, tv_nsec=500000000}) = 0
+1713878770.156559 io_getevents(0x7f4bd4fb9000, 1, 256, [], {tv_sec=0, tv_nsec=500000000}) = 0
+1713878770.656805 io_getevents(0x7f4bd4fb9000, 1, 256, [], {tv_sec=0, tv_nsec=500000000}) = 0
+1713878771.157212 io_getevents(0x7f4bd4fb9000, 1, 256, [], {tv_sec=0, tv_nsec=500000000}) = 0
+1713878771.657661 io_getevents(0x7f4bd4fb9000, 1, 256, [], {tv_sec=0, tv_nsec=500000000}) = 0
+1713878772.158134 io_getevents(0x7f4bd4fb9000, 1, 256, [], {tv_sec=0, tv_nsec=500000000}) = 0
+1713878772.658497 io_getevents(0x7f4bd4fb9000, 1, 256, [], {tv_sec=0, tv_nsec=500000000}) = 0
+1713878773.158806 io_getevents(0x7f4bd4fb9000, 1, 256, [], {tv_sec=0, tv_nsec=500000000}) = 0
+1713878773.659091 io_getevents(0x7f4bd4fb9000, 1, 256, [], {tv_sec=0, tv_nsec=500000000}) = 0
+1713878774.159596 io_getevents(0x7f4bd4fb9000, 1, 256, [], {tv_sec=0, tv_nsec=500000000}) = 0
+1713878774.659815 io_getevents(0x7f4bd4fb9000, 1, 256, [], {tv_sec=0, tv_nsec=500000000}) = 0
+1713878775.160334 io_getevents(0x7f4bd4fb9000, 1, 256, [], {tv_sec=0, tv_nsec=500000000}) = 0
+1713878775.660940 io_getevents(0x7f4bd4fb9000, 1, 256, [], {tv_sec=0, tv_nsec=500000000}) = 0
+1713878776.161408 io_getevents(0x7f4bd4fb9000, 1, 256, [], {tv_sec=0, tv_nsec=500000000}) = 0
+1713878776.661754 io_getevents(0x7f4bd4fb9000, 1, 256, [], {tv_sec=0, tv_nsec=500000000}) = 0
+1713878777.162245 io_getevents(0x7f4bd4fb9000, 1, 256, [], {tv_sec=0, tv_nsec=500000000}) = 0
+1713878777.662743 io_getevents(0x7f4bd4fb9000, 1, 256, [], {tv_sec=0, tv_nsec=500000000}) = 0
+1713878778.163627 io_getevents(0x7f4bd4fb9000, 1, 256, [], {tv_sec=0, tv_nsec=500000000}) = 0
+1713878778.664217 io_getevents(0x7f4bd4fb9000, 1, 256, [], {tv_sec=0, tv_nsec=500000000}) = 0
+1713878779.164934 io_getevents(0x7f4bd4fb9000, 1, 256, [], {tv_sec=0, tv_nsec=500000000}) = 0
+1713878779.665387 io_getevents(0x7f4bd4fb9000, 1, 256, [], {tv_sec=0, tv_nsec=500000000}) = 0
+1713878780.165756 io_getevents(0x7f4bd4fb9000, 1, 256, [], {tv_sec=0, tv_nsec=500000000}) = 0
+1713878780.666347 io_getevents(0x7f4bd4fb9000, 1, 256, [], {tv_sec=0, tv_nsec=500000000}) = 0
+1713878781.166594 io_getevents(0x7f4bd4fb9000, 1, 256, [], {tv_sec=0, tv_nsec=500000000}) = 0
+1713878781.666975 io_getevents(0x7f4bd4fb9000, 1, 256, [], {tv_sec=0, tv_nsec=500000000}) = 0
+1713878782.167179 io_getevents(0x7f4bd4fb9000, 1, 256, [], {tv_sec=0, tv_nsec=500000000}) = 0
+1713878782.667566 io_getevents(0x7f4bd4fb9000, 1, 256, [], {tv_sec=0, tv_nsec=500000000}) = 0
+1713878783.167936 io_getevents(0x7f4bd4fb9000, 1, 256, [], {tv_sec=0, tv_nsec=500000000}) = 0
+1713878783.668484 io_getevents(0x7f4bd4fb9000, 1, 256, [], {tv_sec=0, tv_nsec=500000000}) = 0
+1713878784.168711 io_getevents(0x7f4bd4fb9000, 1, 256, [], {tv_sec=0, tv_nsec=500000000}) = 0
+1713878784.669033 io_getevents(0x7f4bd4fb9000, 1, 256, [], {tv_sec=0, tv_nsec=500000000}) = 0
+1713878785.169589 io_getevents(0x7f4bd4fb9000, 1, 256, [], {tv_sec=0, tv_nsec=500000000}) = 0
+1713878785.669983 io_getevents(0x7f4bd4fb9000, 1, 256, [], {tv_sec=0, tv_nsec=500000000}) = 0
+1713878786.170527 io_getevents(0x7f4bd4fb9000, 1, 256, [], {tv_sec=0, tv_nsec=500000000}) = 0
+1713878786.670935 io_getevents(0x7f4bd4fb9000, 1, 256, [], {tv_sec=0, tv_nsec=500000000}) = 0
+1713878787.171418 io_getevents(0x7f4bd4fb9000, 1, 256, [], {tv_sec=0, tv_nsec=500000000}) = 0
+1713878787.671813 io_getevents(0x7f4bd4fb9000, 1, 256, [], {tv_sec=0, tv_nsec=500000000}) = 0
+1713878788.172284 io_getevents(0x7f4bd4fb9000, 1, 256, [], {tv_sec=0, tv_nsec=500000000}) = 0
+1713878788.673011 io_getevents(0x7f4bd4fb9000, 1, 256, [], {tv_sec=0, tv_nsec=500000000}) = 0
+1713878789.173412 io_getevents(0x7f4bd4fb9000, 1, 256, [], {tv_sec=0, tv_nsec=500000000}) = 0
+1713878789.673683 io_getevents(0x7f4bd4fb9000, 1, 256, [], {tv_sec=0, tv_nsec=500000000}) = 0
+1713878790.174118 io_getevents(0x7f4bd4fb9000, 1, 256, [], {tv_sec=0, tv_nsec=500000000}) = 0
+1713878790.674689 io_getevents(0x7f4bd4fb9000, 1, 256, [], {tv_sec=0, tv_nsec=500000000}) = 0
+1713878791.175106 io_getevents(0x7f4bd4fb9000, 1, 256, [], {tv_sec=0, tv_nsec=500000000}) = 0
+1713878791.675588 io_getevents(0x7f4bd4fb9000, 1, 256, [], {tv_sec=0, tv_nsec=500000000}) = 0
+1713878792.176084 io_getevents(0x7f4bd4fb9000, 1, 256, [], {tv_sec=0, tv_nsec=500000000}) = 0
+1713878792.676799 io_getevents(0x7f4bd4fb9000, 1, 256, [], {tv_sec=0, tv_nsec=500000000}) = 0
+1713878793.177624 io_getevents(0x7f4bd4fb9000, 1, 256, [], {tv_sec=0, tv_nsec=500000000}) = 0
+1713878793.678274 io_getevents(0x7f4bd4fb9000, 1, 256, [], {tv_sec=0, tv_nsec=500000000}) = 0
+1713878794.178589 io_getevents(0x7f4bd4fb9000, 1, 256, [], {tv_sec=0, tv_nsec=500000000}) = 0
+1713878794.679026 io_getevents(0x7f4bd4fb9000, 1, 256, [], {tv_sec=0, tv_nsec=500000000}) = 0
+1713878795.179626 io_getevents(0x7f4bd4fb9000, 1, 256, [], {tv_sec=0, tv_nsec=500000000}) = 0
+1713878795.680302 io_getevents(0x7f4bd4fb9000, 1, 256, [], {tv_sec=0, tv_nsec=500000000}) = 0
+1713878796.180752 io_getevents(0x7f4bd4fb9000, 1, 256, [], {tv_sec=0, tv_nsec=500000000}) = 0
+1713878796.681358 io_getevents(0x7f4bd4fb9000, 1, 256, [], {tv_sec=0, tv_nsec=500000000}) = 0
+1713878797.181614 io_getevents(0x7f4bd4fb9000, 1, 256, [], {tv_sec=0, tv_nsec=500000000}) = 0
+1713878797.681824 io_getevents(0x7f4bd4fb9000, 1, 256, [], {tv_sec=0, tv_nsec=500000000}) = 0
+1713878798.182264 io_getevents(0x7f4bd4fb9000, 1, 256, [], {tv_sec=0, tv_nsec=500000000}) = 0
+1713878798.682863 io_getevents(0x7f4bd4fb9000, 1, 256, [], {tv_sec=0, tv_nsec=500000000}) = 0
+1713878799.183448 io_getevents(0x7f4bd4fb9000, 1, 256, [], {tv_sec=0, tv_nsec=500000000}) = 0
+1713878799.683950 io_getevents(0x7f4bd4fb9000, 1, 256, [], {tv_sec=0, tv_nsec=500000000}) = 0
+1713878800.184740 io_getevents(0x7f4bd4fb9000, 1, 256, [], {tv_sec=0, tv_nsec=500000000}) = 0
+1713878800.685274 io_getevents(0x7f4bd4fb9000, 1, 256, [], {tv_sec=0, tv_nsec=500000000}) = 0
+1713878801.185717 io_getevents(0x7f4bd4fb9000, 1, 256, [], {tv_sec=0, tv_nsec=500000000}) = 0
+1713878801.686145 io_getevents(0x7f4bd4fb9000, 1, 256, [], {tv_sec=0, tv_nsec=500000000}) = 0
+1713878802.186653 io_getevents(0x7f4bd4fb9000, 1, 256, [], {tv_sec=0, tv_nsec=500000000}) = 0
+1713878802.687186 io_getevents(0x7f4bd4fb9000, 1, 256, [], {tv_sec=0, tv_nsec=500000000}) = 0
+1713878803.187674 io_getevents(0x7f4bd4fb9000, 1, 256, [], {tv_sec=0, tv_nsec=500000000}) = 0
+1713878803.688049 io_getevents(0x7f4bd4fb9000, 1, 256, [], {tv_sec=0, tv_nsec=500000000}) = 0
+1713878804.188721 io_getevents(0x7f4bd4fb9000, 1, 256, [], {tv_sec=0, tv_nsec=500000000}) = 0
+1713878804.689392 io_getevents(0x7f4bd4fb9000, 1, 256, [], {tv_sec=0, tv_nsec=500000000}) = 0
+1713878805.189816 io_getevents(0x7f4bd4fb9000, 1, 256, [], {tv_sec=0, tv_nsec=500000000}) = 0
+1713878805.690159 io_getevents(0x7f4bd4fb9000, 1, 256, [], {tv_sec=0, tv_nsec=500000000}) = 0
+1713878806.190643 io_getevents(0x7f4bd4fb9000, 1, 256, [], {tv_sec=0, tv_nsec=500000000}) = 0
+1713878806.691012 io_getevents(0x7f4bd4fb9000, 1, 256, [], {tv_sec=0, tv_nsec=500000000}) = 0
+1713878807.191638 io_getevents(0x7f4bd4fb9000, 1, 256, [], {tv_sec=0, tv_nsec=500000000}) = 0
+1713878807.692250 io_getevents(0x7f4bd4fb9000, 1, 256, [], {tv_sec=0, tv_nsec=500000000}) = 0
+1713878808.192934 io_getevents(0x7f4bd4fb9000, 1, 256, [], {tv_sec=0, tv_nsec=500000000}) = 0
+1713878808.693427 io_getevents(0x7f4bd4fb9000, 1, 256, [], {tv_sec=0, tv_nsec=500000000}) = 0
+1713878809.193735 io_getevents(0x7f4bd4fb9000, 1, 256, [], {tv_sec=0, tv_nsec=500000000}) = 0
+1713878809.694048 io_getevents(0x7f4bd4fb9000, 1, 256, [], {tv_sec=0, tv_nsec=500000000}) = 0
+1713878810.194646 io_getevents(0x7f4bd4fb9000, 1, 256, [], {tv_sec=0, tv_nsec=500000000}) = 0
+1713878810.695118 io_getevents(0x7f4bd4fb9000, 1, 256, [], {tv_sec=0, tv_nsec=500000000}) = 0
+1713878811.195479 io_getevents(0x7f4bd4fb9000, 1, 256, [], {tv_sec=0, tv_nsec=500000000}) = 0
+1713878811.695951 io_getevents(0x7f4bd4fb9000, 1, 256, [], {tv_sec=0, tv_nsec=500000000}) = 0
+1713878812.196496 io_getevents(0x7f4bd4fb9000, 1, 256, [], {tv_sec=0, tv_nsec=500000000}) = 0
+1713878812.697015 io_getevents(0x7f4bd4fb9000, 1, 256, [], {tv_sec=0, tv_nsec=500000000}) = 0
+1713878813.197704 io_getevents(0x7f4bd4fb9000, 1, 256, [], {tv_sec=0, tv_nsec=500000000}) = 0
+1713878813.698132 io_getevents(0x7f4bd4fb9000, 1, 256, [], {tv_sec=0, tv_nsec=500000000}) = 0
+1713878814.198797 io_getevents(0x7f4bd4fb9000, 1, 256, [], {tv_sec=0, tv_nsec=500000000}) = 0
+1713878814.699173 io_getevents(0x7f4bd4fb9000, 1, 256, [], {tv_sec=0, tv_nsec=500000000}) = 0
+1713878815.199662 io_getevents(0x7f4bd4fb9000, 1, 256, [], {tv_sec=0, tv_nsec=500000000}) = 0
+1713878815.700047 io_getevents(0x7f4bd4fb9000, 1, 256, [], {tv_sec=0, tv_nsec=500000000}) = 0
+1713878816.200543 io_getevents(0x7f4bd4fb9000, 1, 256, [], {tv_sec=0, tv_nsec=500000000}) = 0
+1713878816.701289 io_getevents(0x7f4bd4fb9000, 1, 256, [], {tv_sec=0, tv_nsec=500000000}) = 0
+1713878817.201607 io_getevents(0x7f4bd4fb9000, 1, 256, [], {tv_sec=0, tv_nsec=500000000}) = 0
+1713878817.702007 io_getevents(0x7f4bd4fb9000, 1, 256, [], {tv_sec=0, tv_nsec=500000000}) = 0
+1713878818.202375 io_getevents(0x7f4bd4fb9000, 1, 256, [], {tv_sec=0, tv_nsec=500000000}) = 0
+1713878818.702859 io_getevents(0x7f4bd4fb9000, 1, 256, [], {tv_sec=0, tv_nsec=500000000}) = 0
+1713878819.203347 io_getevents(0x7f4bd4fb9000, 1, 256, [], {tv_sec=0, tv_nsec=500000000}) = 0
+1713878819.704014 io_getevents(0x7f4bd4fb9000, 1, 256, [], {tv_sec=0, tv_nsec=500000000}) = 0
+1713878820.204464 io_getevents(0x7f4bd4fb9000, 1, 256, [], {tv_sec=0, tv_nsec=500000000}) = 0
+1713878820.705029 io_getevents(0x7f4bd4fb9000, 1, 256, [], {tv_sec=0, tv_nsec=500000000}) = 0
+1713878821.205655 io_getevents(0x7f4bd4fb9000, 1, 256, [], {tv_sec=0, tv_nsec=500000000}) = 0
+1713878821.705961 io_getevents(0x7f4bd4fb9000, 1, 256, [], {tv_sec=0, tv_nsec=500000000}) = 0
+1713878822.206332 io_getevents(0x7f4bd4fb9000, 1, 256, [], {tv_sec=0, tv_nsec=500000000}) = 0
+1713878822.706968 io_getevents(0x7f4bd4fb9000, 1, 256, [], {tv_sec=0, tv_nsec=500000000}) = 0
+1713878823.207616 io_getevents(0x7f4bd4fb9000, 1, 256, [], {tv_sec=0, tv_nsec=500000000}) = 0
+1713878823.708176 io_getevents(0x7f4bd4fb9000, 1, 256, [], {tv_sec=0, tv_nsec=500000000}) = 0
+1713878824.208635 io_getevents(0x7f4bd4fb9000, 1, 256, [], {tv_sec=0, tv_nsec=500000000}) = 0
+1713878824.709057 io_getevents(0x7f4bd4fb9000, 1, 256, [], {tv_sec=0, tv_nsec=500000000}) = 0
+1713878825.209637 io_getevents(0x7f4bd4fb9000, 1, 256, [], {tv_sec=0, tv_nsec=500000000}) = 0
+1713878825.710531 io_getevents(0x7f4bd4fb9000, 1, 256, [], {tv_sec=0, tv_nsec=500000000}) = 0
+1713878826.211126 io_getevents(0x7f4bd4fb9000, 1, 256, [], {tv_sec=0, tv_nsec=500000000}) = 0
+1713878826.711897 io_getevents(0x7f4bd4fb9000, 1, 256, [], {tv_sec=0, tv_nsec=500000000}) = 0
+1713878827.212409 io_getevents(0x7f4bd4fb9000, 1, 256, [], {tv_sec=0, tv_nsec=500000000}) = 0
+1713878827.713187 io_getevents(0x7f4bd4fb9000, 1, 256, [], {tv_sec=0, tv_nsec=500000000}) = 0
+1713878828.214871 io_getevents(0x7f4bd4fb9000, 1, 256, [], {tv_sec=0, tv_nsec=500000000}) = 0
+1713878828.715339 io_getevents(0x7f4bd4fb9000, 1, 256, [], {tv_sec=0, tv_nsec=500000000}) = 0
+1713878829.215932 io_getevents(0x7f4bd4fb9000, 1, 256, [], {tv_sec=0, tv_nsec=500000000}) = 0
+1713878829.716476 io_getevents(0x7f4bd4fb9000, 1, 256, [], {tv_sec=0, tv_nsec=500000000}) = 0
+1713878830.217084 io_getevents(0x7f4bd4fb9000, 1, 256, [], {tv_sec=0, tv_nsec=500000000}) = 0
+1713878830.718380 io_getevents(0x7f4bd4fb9000, 1, 256, [], {tv_sec=0, tv_nsec=500000000}) = 0
+1713878831.218844 io_getevents(0x7f4bd4fb9000, 1, 256, [], {tv_sec=0, tv_nsec=500000000}) = 0
+1713878831.722741 io_getevents(0x7f4bd4fb9000, 1, 256, [], {tv_sec=0, tv_nsec=500000000}) = 0
+1713878832.223234 io_getevents(0x7f4bd4fb9000, 1, 256, [], {tv_sec=0, tv_nsec=500000000}) = 0
+1713878832.723779 io_getevents(0x7f4bd4fb9000, 1, 256, [], {tv_sec=0, tv_nsec=500000000}) = 0
+1713878833.224372 io_getevents(0x7f4bd4fb9000, 1, 256, [], {tv_sec=0, tv_nsec=500000000}) = 0
+1713878833.725030 io_getevents(0x7f4bd4fb9000, 1, 256, [], {tv_sec=0, tv_nsec=500000000}) = 0
+1713878834.225415 io_getevents(0x7f4bd4fb9000, 1, 256, [], {tv_sec=0, tv_nsec=500000000}) = 0
+1713878834.725818 io_getevents(0x7f4bd4fb9000, 1, 256, [], {tv_sec=0, tv_nsec=500000000}) = 0
+1713878835.226327 io_getevents(0x7f4bd4fb9000, 1, 256, [], {tv_sec=0, tv_nsec=500000000}) = 0
+1713878835.727006 io_getevents(0x7f4bd4fb9000, 1, 256, [], {tv_sec=0, tv_nsec=500000000}) = 0
+1713878836.227275 io_getevents(0x7f4bd4fb9000, 1, 256, [{data=0x7f4bd4fbe010, obj=0x7f4bd4fbe0a0, res=16384, res2=0}], {tv_sec=0, tv_nsec=500000000}) = 1
+1713878836.607487 futex(0x3f619f8, FUTEX_WAKE_PRIVATE, 1) = 0
+1713878836.607705 io_getevents(0x7f4bd4fb9000, 1, 256, [{data=0x7f4bd4fbe010, obj=0x7f4bd4fbe0a0, res=16384, res2=0}], {tv_sec=0, tv_nsec=500000000}) = 1
+1713878836.608237 io_getevents(0x7f4bd4fb9000, 1, 256, [{data=0x7f4bd4fbe010, obj=0x7f4bd4fbe0a0, res=16384, res2=0}], {tv_sec=0, tv_nsec=500000000}) = 1
+1713878836.608557 futex(0x3f619f8, FUTEX_WAIT_PRIVATE, 2, NULL) = -1 EAGAIN (Resource temporarily unavailable)
+1713878836.608828 futex(0x3f619f8, FUTEX_WAKE_PRIVATE, 1) = 0
+1713878836.609032 io_getevents(0x7f4bd4fb9000, 1, 256, [{data=0x7f4bd4fbe010, obj=0x7f4bd4fbe0a0, res=16384, res2=0}], {tv_sec=0, tv_nsec=500000000}) = 1
+1713878836.609439 io_getevents(0x7f4bd4fb9000, 1, 256, [{data=0x7f4bd4fbe010, obj=0x7f4bd4fbe0a0, res=16384, res2=0}], {tv_sec=0, tv_nsec=500000000}) = 1
+1713878836.609952 io_getevents(0x7f4bd4fb9000, 1, 256, [{data=0x7f4bd4fbe110, obj=0x7f4bd4fbe1a0, res=16384, res2=0}], {tv_sec=0, tv_nsec=500000000}) = 1
+1713878836.610250 io_getevents(0x7f4bd4fb9000, 1, 256, [{data=0x7f4bd4fbe010, obj=0x7f4bd4fbe0a0, res=16384, res2=0}], {tv_sec=0, tv_nsec=500000000}) = 1
+1713878836.610794 io_getevents(0x7f4bd4fb9000, 1, 256, [{data=0x7f4bd4fbe110, obj=0x7f4bd4fbe1a0, res=16384, res2=0}], {tv_sec=0, tv_nsec=500000000}) = 1
+1713878836.611049 io_getevents(0x7f4bd4fb9000, 1, 256, [{data=0x7f4bd4fbe010, obj=0x7f4bd4fbe0a0, res=16384, res2=0}], {tv_sec=0, tv_nsec=500000000}) = 1
+1713878836.611361 io_getevents(0x7f4bd4fb9000, 1, 256, [{data=0x7f4bd4fbe110, obj=0x7f4bd4fbe1a0, res=16384, res2=0}], {tv_sec=0, tv_nsec=500000000}) = 1
+1713878836.611776 io_getevents(0x7f4bd4fb9000, 1, 256, [{data=0x7f4bd4fbe010, obj=0x7f4bd4fbe0a0, res=16384, res2=0}], {tv_sec=0, tv_nsec=500000000}) = 1
+1713878836.612054 io_getevents(0x7f4bd4fb9000, 1, 256, [{data=0x7f4bd4fbe110, obj=0x7f4bd4fbe1a0, res=16384, res2=0}], {tv_sec=0, tv_nsec=500000000}) = 1
+1713878836.612209 io_getevents(0x7f4bd4fb9000, 1, 256, [{data=0x7f4bd4fbe010, obj=0x7f4bd4fbe0a0, res=16384, res2=0}], {tv_sec=0, tv_nsec=500000000}) = 1
+1713878836.612605 io_getevents(0x7f4bd4fb9000, 1, 256, [{data=0x7f4bd4fbe110, obj=0x7f4bd4fbe1a0, res=16384, res2=0}], {tv_sec=0, tv_nsec=500000000}) = 1
+1713878836.612794 io_getevents(0x7f4bd4fb9000, 1, 256, [{data=0x7f4bd4fbe010, obj=0x7f4bd4fbe0a0, res=16384, res2=0}], {tv_sec=0, tv_nsec=500000000}) = 1
+1713878836.613075 io_getevents(0x7f4bd4fb9000, 1, 256, [{data=0x7f4bd4fbe110, obj=0x7f4bd4fbe1a0, res=16384, res2=0}, {data=0x7f4bd4fbe010, obj=0x7f4bd4fbe0a0, res=16384, res2=0}], {tv_sec=0, tv_nsec=500000000}) = 2
+1713878836.613396 io_getevents(0x7f4bd4fb9000, 1, 256, [{data=0x7f4bd4fbe210, obj=0x7f4bd4fbe2a0, res=16384, res2=0}], {tv_sec=0, tv_nsec=500000000}) = 1
+1713878836.613666 io_getevents(0x7f4bd4fb9000, 1, 256, [{data=0x7f4bd4fbe010, obj=0x7f4bd4fbe0a0, res=16384, res2=0}, {data=0x7f4bd4fbe110, obj=0x7f4bd4fbe1a0, res=16384, res2=0}], {tv_sec=0, tv_nsec=500000000}) = 2
+1713878836.613926 io_getevents(0x7f4bd4fb9000, 1, 256, [{data=0x7f4bd4fbe210, obj=0x7f4bd4fbe2a0, res=16384, res2=0}], {tv_sec=0, tv_nsec=500000000}) = 1
+1713878836.614163 io_getevents(0x7f4bd4fb9000, 1, 256, [{data=0x7f4bd4fbe010, obj=0x7f4bd4fbe0a0, res=16384, res2=0}], {tv_sec=0, tv_nsec=500000000}) = 1
+1713878836.614477 io_getevents(0x7f4bd4fb9000, 1, 256, [{data=0x7f4bd4fbe110, obj=0x7f4bd4fbe1a0, res=16384, res2=0}], {tv_sec=0, tv_nsec=500000000}) = 1
+1713878836.614817 io_getevents(0x7f4bd4fb9000, 1, 256, [{data=0x7f4bd4fbe010, obj=0x7f4bd4fbe0a0, res=16384, res2=0}], {tv_sec=0, tv_nsec=500000000}) = 1
+1713878836.615092 io_getevents(0x7f4bd4fb9000, 1, 256, [{data=0x7f4bd4fbe110, obj=0x7f4bd4fbe1a0, res=16384, res2=0}], {tv_sec=0, tv_nsec=500000000}) = 1
+1713878836.615442 fsync(20)             = 0
+1713878836.618227 fsync(19)             = 0
+1713878836.619646 fsync(24)             = 0
+1713878836.621003 fsync(9)              = 0
+1713878836.622339 io_getevents(0x7f4bd4fb9000, 1, 256, [], {tv_sec=0, tv_nsec=500000000}) = 0
+1713878837.122583 io_getevents(0x7f4bd4fb9000, 1, 256, [], {tv_sec=0, tv_nsec=500000000}) = 0
+1713878837.622852 io_getevents(0x7f4bd4fb9000, 1, 256, [], {tv_sec=0, tv_nsec=500000000}) = 0
+1713878838.123115 io_getevents(0x7f4bd4fb9000, 1, 256, [], {tv_sec=0, tv_nsec=500000000}) = 0
+1713878838.623551 io_getevents(0x7f4bd4fb9000, 1, 256, [], {tv_sec=0, tv_nsec=500000000}) = 0
+1713878839.123851 io_getevents(0x7f4bd4fb9000, 1, 256, [], {tv_sec=0, tv_nsec=500000000}) = 0
+1713878839.624197 io_getevents(0x7f4bd4fb9000, 1, 256, [], {tv_sec=0, tv_nsec=500000000}) = 0
+1713878840.124425 io_getevents(0x7f4bd4fb9000, 1, 256, [], {tv_sec=0, tv_nsec=500000000}) = 0
+1713878840.624776 io_getevents(0x7f4bd4fb9000, 1, 256, [], {tv_sec=0, tv_nsec=500000000}) = 0
+1713878841.125046 io_getevents(0x7f4bd4fb9000, 1, 256, [], {tv_sec=0, tv_nsec=500000000}) = 0
+1713878841.625270 io_getevents(0x7f4bd4fb9000, 1, 256, [], {tv_sec=0, tv_nsec=500000000}) = 0
+1713878842.125597 io_getevents(0x7f4bd4fb9000, 1, 256, [], {tv_sec=0, tv_nsec=500000000}) = 0
+1713878842.625844 io_getevents(0x7f4bd4fb9000, 1, 256, [], {tv_sec=0, tv_nsec=500000000}) = 0
+1713878843.126078 io_getevents(0x7f4bd4fb9000, 1, 256, [], {tv_sec=0, tv_nsec=500000000}) = 0
+1713878843.626404 io_getevents(0x7f4bd4fb9000, 1, 256, [], {tv_sec=0, tv_nsec=500000000}) = 0
+1713878844.126645 io_getevents(0x7f4bd4fb9000, 1, 256, [], {tv_sec=0, tv_nsec=500000000}) = 0
+1713878844.626832 io_getevents(0x7f4bd4fb9000, 1, 256, [], {tv_sec=0, tv_nsec=500000000}) = 0
+1713878845.127059 io_getevents(0x7f4bd4fb9000, 1, 256, [], {tv_sec=0, tv_nsec=500000000}) = 0
+1713878845.627338 io_getevents(0x7f4bd4fb9000, 1, 256, [], {tv_sec=0, tv_nsec=500000000}) = 0
+1713878846.127600 io_getevents(0x7f4bd4fb9000, 1, 256, [], {tv_sec=0, tv_nsec=500000000}) = 0
+1713878846.627900 io_getevents(0x7f4bd4fb9000, 1, 256, [], {tv_sec=0, tv_nsec=500000000}) = 0
+1713878847.128193 io_getevents(0x7f4bd4fb9000, 1, 256, [], {tv_sec=0, tv_nsec=500000000}) = 0
+1713878847.628474 io_getevents(0x7f4bd4fb9000, 1, 256, [], {tv_sec=0, tv_nsec=500000000}) = 0
+1713878848.128834 io_getevents(0x7f4bd4fb9000, 1, 256, [], {tv_sec=0, tv_nsec=500000000}) = 0
+1713878848.629178 io_getevents(0x7f4bd4fb9000, 1, 256, [], {tv_sec=0, tv_nsec=500000000}) = 0
+1713878849.129677 io_getevents(0x7f4bd4fb9000, 1, 256, [{data=0x7f4bd4fbe010, obj=0x7f4bd4fbe0a0, res=16384, res2=0}], {tv_sec=0, tv_nsec=500000000}) = 1
+1713878849.612157 io_getevents(0x7f4bd4fb9000, 1, 256, [{data=0x7f4bd4fbe110, obj=0x7f4bd4fbe1a0, res=16384, res2=0}], {tv_sec=0, tv_nsec=500000000}) = 1
+1713878849.612326 io_getevents(0x7f4bd4fb9000, 1, 256, [{data=0x7f4bd4fbe010, obj=0x7f4bd4fbe0a0, res=16384, res2=0}], {tv_sec=0, tv_nsec=500000000}) = 1
+1713878849.612487 io_getevents(0x7f4bd4fb9000, 1, 256, [{data=0x7f4bd4fbe110, obj=0x7f4bd4fbe1a0, res=16384, res2=0}], {tv_sec=0, tv_nsec=500000000}) = 1
+1713878849.612756 io_getevents(0x7f4bd4fb9000, 1, 256, [{data=0x7f4bd4fbe010, obj=0x7f4bd4fbe0a0, res=16384, res2=0}, {data=0x7f4bd4fbe110, obj=0x7f4bd4fbe1a0, res=16384, res2=0}], {tv_sec=0, tv_nsec=500000000}) = 2
+1713878849.612952 io_getevents(0x7f4bd4fb9000, 1, 256, [{data=0x7f4bd4fbe210, obj=0x7f4bd4fbe2a0, res=16384, res2=0}], {tv_sec=0, tv_nsec=500000000}) = 1
+1713878849.613174 io_getevents(0x7f4bd4fb9000, 1, 256, [{data=0x7f4bd4fbe010, obj=0x7f4bd4fbe0a0, res=16384, res2=0}], {tv_sec=0, tv_nsec=500000000}) = 1
+1713878849.613496 io_getevents(0x7f4bd4fb9000, 1, 256, [{data=0x7f4bd4fbe010, obj=0x7f4bd4fbe0a0, res=16384, res2=0}], {tv_sec=0, tv_nsec=500000000}) = 1
+1713878849.613978 io_getevents(0x7f4bd4fb9000, 1, 256, [{data=0x7f4bd4fbe110, obj=0x7f4bd4fbe1a0, res=16384, res2=0}], {tv_sec=0, tv_nsec=500000000}) = 1
+1713878849.614122 io_getevents(0x7f4bd4fb9000, 1, 256, [{data=0x7f4bd4fbe010, obj=0x7f4bd4fbe0a0, res=16384, res2=0}], {tv_sec=0, tv_nsec=500000000}) = 1
+1713878849.614285 io_getevents(0x7f4bd4fb9000, 1, 256, [{data=0x7f4bd4fbe110, obj=0x7f4bd4fbe1a0, res=16384, res2=0}], {tv_sec=0, tv_nsec=500000000}) = 1
+1713878849.614433 io_getevents(0x7f4bd4fb9000, 1, 256, [{data=0x7f4bd4fbe010, obj=0x7f4bd4fbe0a0, res=16384, res2=0}], {tv_sec=0, tv_nsec=500000000}) = 1
+1713878849.614581 io_getevents(0x7f4bd4fb9000, 1, 256, [{data=0x7f4bd4fbe110, obj=0x7f4bd4fbe1a0, res=16384, res2=0}], {tv_sec=0, tv_nsec=500000000}) = 1
+1713878849.614728 io_getevents(0x7f4bd4fb9000, 1, 256, [{data=0x7f4bd4fbe010, obj=0x7f4bd4fbe0a0, res=16384, res2=0}], {tv_sec=0, tv_nsec=500000000}) = 1
+1713878849.614876 io_getevents(0x7f4bd4fb9000, 1, 256, [{data=0x7f4bd4fbe110, obj=0x7f4bd4fbe1a0, res=16384, res2=0}], {tv_sec=0, tv_nsec=500000000}) = 1
+1713878849.615022 io_getevents(0x7f4bd4fb9000, 1, 256, [{data=0x7f4bd4fbe010, obj=0x7f4bd4fbe0a0, res=16384, res2=0}], {tv_sec=0, tv_nsec=500000000}) = 1
+1713878849.615167 io_getevents(0x7f4bd4fb9000, 1, 256, [{data=0x7f4bd4fbe110, obj=0x7f4bd4fbe1a0, res=16384, res2=0}], {tv_sec=0, tv_nsec=500000000}) = 1
+1713878849.615312 io_getevents(0x7f4bd4fb9000, 1, 256, [{data=0x7f4bd4fbe010, obj=0x7f4bd4fbe0a0, res=16384, res2=0}], {tv_sec=0, tv_nsec=500000000}) = 1
+1713878849.615459 io_getevents(0x7f4bd4fb9000, 1, 256, [{data=0x7f4bd4fbe110, obj=0x7f4bd4fbe1a0, res=16384, res2=0}], {tv_sec=0, tv_nsec=500000000}) = 1
+1713878849.615606 io_getevents(0x7f4bd4fb9000, 1, 256, [{data=0x7f4bd4fbe010, obj=0x7f4bd4fbe0a0, res=16384, res2=0}], {tv_sec=0, tv_nsec=500000000}) = 1
+1713878849.615765 io_getevents(0x7f4bd4fb9000, 1, 256, [{data=0x7f4bd4fbe110, obj=0x7f4bd4fbe1a0, res=16384, res2=0}], {tv_sec=0, tv_nsec=500000000}) = 1
+1713878849.615914 io_getevents(0x7f4bd4fb9000, 1, 256, [{data=0x7f4bd4fbe010, obj=0x7f4bd4fbe0a0, res=16384, res2=0}], {tv_sec=0, tv_nsec=500000000}) = 1
+1713878849.616097 io_getevents(0x7f4bd4fb9000, 1, 256, [{data=0x7f4bd4fbe110, obj=0x7f4bd4fbe1a0, res=16384, res2=0}], {tv_sec=0, tv_nsec=500000000}) = 1
+1713878849.616251 io_getevents(0x7f4bd4fb9000, 1, 256, [{data=0x7f4bd4fbe010, obj=0x7f4bd4fbe0a0, res=16384, res2=0}], {tv_sec=0, tv_nsec=500000000}) = 1
+1713878849.616425 io_getevents(0x7f4bd4fb9000, 1, 256, [{data=0x7f4bd4fbe110, obj=0x7f4bd4fbe1a0, res=16384, res2=0}], {tv_sec=0, tv_nsec=500000000}) = 1
+1713878849.616574 io_getevents(0x7f4bd4fb9000, 1, 256, [{data=0x7f4bd4fbe010, obj=0x7f4bd4fbe0a0, res=16384, res2=0}], {tv_sec=0, tv_nsec=500000000}) = 1
+1713878849.616719 io_getevents(0x7f4bd4fb9000, 1, 256, [{data=0x7f4bd4fbe110, obj=0x7f4bd4fbe1a0, res=16384, res2=0}], {tv_sec=0, tv_nsec=500000000}) = 1
+1713878849.616897 io_getevents(0x7f4bd4fb9000, 1, 256, [{data=0x7f4bd4fbe010, obj=0x7f4bd4fbe0a0, res=16384, res2=0}], {tv_sec=0, tv_nsec=500000000}) = 1
+1713878849.617065 io_getevents(0x7f4bd4fb9000, 1, 256, [{data=0x7f4bd4fbe110, obj=0x7f4bd4fbe1a0, res=16384, res2=0}], {tv_sec=0, tv_nsec=500000000}) = 1
+1713878849.617217 io_getevents(0x7f4bd4fb9000, 1, 256, [{data=0x7f4bd4fbe010, obj=0x7f4bd4fbe0a0, res=16384, res2=0}], {tv_sec=0, tv_nsec=500000000}) = 1
+1713878849.617365 io_getevents(0x7f4bd4fb9000, 1, 256, [{data=0x7f4bd4fbe110, obj=0x7f4bd4fbe1a0, res=16384, res2=0}], {tv_sec=0, tv_nsec=500000000}) = 1
+1713878849.617511 io_getevents(0x7f4bd4fb9000, 1, 256, [{data=0x7f4bd4fbe010, obj=0x7f4bd4fbe0a0, res=16384, res2=0}], {tv_sec=0, tv_nsec=500000000}) = 1
+1713878849.617657 io_getevents(0x7f4bd4fb9000, 1, 256, [{data=0x7f4bd4fbe010, obj=0x7f4bd4fbe0a0, res=16384, res2=0}], {tv_sec=0, tv_nsec=500000000}) = 1
+1713878849.618438 io_getevents(0x7f4bd4fb9000, 1, 256, [{data=0x7f4bd4fbe010, obj=0x7f4bd4fbe0a0, res=16384, res2=0}], {tv_sec=0, tv_nsec=500000000}) = 1
+1713878849.618953 io_getevents(0x7f4bd4fb9000, 1, 256, [], {tv_sec=0, tv_nsec=500000000}) = 0
+1713878850.119380 io_getevents(0x7f4bd4fb9000, 1, 256, [], {tv_sec=0, tv_nsec=500000000}) = 0
+1713878850.619823 io_getevents(0x7f4bd4fb9000, 1, 256, [], {tv_sec=0, tv_nsec=500000000}) = 0
+1713878851.120493 io_getevents(0x7f4bd4fb9000, 1, 256, [], {tv_sec=0, tv_nsec=500000000}) = 0
+1713878851.620956 io_getevents(0x7f4bd4fb9000, 1, 256, [], {tv_sec=0, tv_nsec=500000000}) = 0
+1713878852.121409 io_getevents(0x7f4bd4fb9000, 1, 256, [], {tv_sec=0, tv_nsec=500000000}) = 0
+1713878852.621941 io_getevents(0x7f4bd4fb9000, 1, 256, [], {tv_sec=0, tv_nsec=500000000}) = 0
+1713878853.122452 io_getevents(0x7f4bd4fb9000, 1, 256, [], {tv_sec=0, tv_nsec=500000000}) = 0
+1713878853.622875 io_getevents(0x7f4bd4fb9000, 1, 256, [], {tv_sec=0, tv_nsec=500000000}) = 0
+1713878854.123469 io_getevents(0x7f4bd4fb9000, 1, 256, [], {tv_sec=0, tv_nsec=500000000}) = 0
+1713878854.624187 io_getevents(0x7f4bd4fb9000, 1, 256, [], {tv_sec=0, tv_nsec=500000000}) = 0
+1713878855.124593 io_getevents(0x7f4bd4fb9000, 1, 256, [], {tv_sec=0, tv_nsec=500000000}) = 0
+1713878855.625180 io_getevents(0x7f4bd4fb9000, 1, 256, [], {tv_sec=0, tv_nsec=500000000}) = 0
+1713878856.125546 io_getevents(0x7f4bd4fb9000, 1, 256, [], {tv_sec=0, tv_nsec=500000000}) = 0
+1713878856.626013 io_getevents(0x7f4bd4fb9000, 1, 256, [], {tv_sec=0, tv_nsec=500000000}) = 0
+1713878857.126483 io_getevents(0x7f4bd4fb9000, 1, 256, [{data=0x7f4bd4fbe010, obj=0x7f4bd4fbe0a0, res=16384, res2=0}], {tv_sec=0, tv_nsec=500000000}) = 1
+1713878857.611187 io_getevents(0x7f4bd4fb9000, 1, 256, [{data=0x7f4bd4fbe010, obj=0x7f4bd4fbe0a0, res=16384, res2=0}], {tv_sec=0, tv_nsec=500000000}) = 1
+1713878857.611923 io_getevents(0x7f4bd4fb9000, 1, 256, [{data=0x7f4bd4fbe010, obj=0x7f4bd4fbe0a0, res=16384, res2=0}], {tv_sec=0, tv_nsec=500000000}) = 1
+1713878857.612272 fsync(20)             = 0
+1713878857.614739 fsync(19)             = 0
+1713878857.615945 fsync(9)              = 0
+1713878857.617273 io_getevents(0x7f4bd4fb9000, 1, 256, [], {tv_sec=0, tv_nsec=500000000}) = 0
+1713878858.117811 io_getevents(0x7f4bd4fb9000, 1, 256, [], {tv_sec=0, tv_nsec=500000000}) = 0
+1713878858.618424 io_getevents(0x7f4bd4fb9000, 1, 256, [], {tv_sec=0, tv_nsec=500000000}) = 0
+1713878859.118956 io_getevents(0x7f4bd4fb9000, 1, 256, [], {tv_sec=0, tv_nsec=500000000}) = 0
+1713878859.619415 io_getevents(0x7f4bd4fb9000, 1, 256, [], {tv_sec=0, tv_nsec=500000000}) = 0
+1713878860.119928 io_getevents(0x7f4bd4fb9000, 1, 256, [], {tv_sec=0, tv_nsec=500000000}) = 0
+1713878860.620352 io_getevents(0x7f4bd4fb9000, 1, 256, [], {tv_sec=0, tv_nsec=500000000}) = 0
+1713878861.120633 io_getevents(0x7f4bd4fb9000, 1, 256, [], {tv_sec=0, tv_nsec=500000000}) = 0
+1713878861.621520 io_getevents(0x7f4bd4fb9000, 1, 256, [], {tv_sec=0, tv_nsec=500000000}) = 0
+1713878862.121882 io_getevents(0x7f4bd4fb9000, 1, 256, [], {tv_sec=0, tv_nsec=500000000}) = 0
+1713878862.622190 io_getevents(0x7f4bd4fb9000, 1, 256, [], {tv_sec=0, tv_nsec=500000000}) = 0
+1713878863.122532 io_getevents(0x7f4bd4fb9000, 1, 256, [], {tv_sec=0, tv_nsec=500000000}) = 0
+1713878863.622957 io_getevents(0x7f4bd4fb9000, 1, 256, [], {tv_sec=0, tv_nsec=500000000}) = 0
+1713878864.123293 io_getevents(0x7f4bd4fb9000, 1, 256, [], {tv_sec=0, tv_nsec=500000000}) = 0
+1713878864.623832 io_getevents(0x7f4bd4fb9000, 1, 256, [], {tv_sec=0, tv_nsec=500000000}) = 0
+1713878865.125004 io_getevents(0x7f4bd4fb9000, 1, 256, [], {tv_sec=0, tv_nsec=500000000}) = 0
+1713878865.625447 io_getevents(0x7f4bd4fb9000, 1, 256, [], {tv_sec=0, tv_nsec=500000000}) = 0
+1713878866.125800 io_getevents(0x7f4bd4fb9000, 1, 256, [], {tv_sec=0, tv_nsec=500000000}) = 0
+1713878866.626116 io_getevents(0x7f4bd4fb9000, 1, 256, [], {tv_sec=0, tv_nsec=500000000}) = 0
+1713878867.126488 io_getevents(0x7f4bd4fb9000, 1, 256, [], {tv_sec=0, tv_nsec=500000000}) = 0
+1713878867.627016 io_getevents(0x7f4bd4fb9000, 1, 256, [], {tv_sec=0, tv_nsec=500000000}) = 0
+1713878868.127648 io_getevents(0x7f4bd4fb9000, 1, 256, [], {tv_sec=0, tv_nsec=500000000}) = 0
+1713878868.628548 io_getevents(0x7f4bd4fb9000, 1, 256, [], {tv_sec=0, tv_nsec=500000000}) = 0
+1713878869.128989 io_getevents(0x7f4bd4fb9000, 1, 256, [], {tv_sec=0, tv_nsec=500000000}) = 0
+1713878869.629351 io_getevents(0x7f4bd4fb9000, 1, 256, [], {tv_sec=0, tv_nsec=500000000}) = 0
+1713878870.129674 io_getevents(0x7f4bd4fb9000, 1, 256, [], {tv_sec=0, tv_nsec=500000000}) = 0
+1713878870.630307 io_getevents(0x7f4bd4fb9000, 1, 256, [], {tv_sec=0, tv_nsec=500000000}) = 0
+1713878871.130768 io_getevents(0x7f4bd4fb9000, 1, 256, [], {tv_sec=0, tv_nsec=500000000}) = 0
+1713878871.631443 io_getevents(0x7f4bd4fb9000, 1, 256, [], {tv_sec=0, tv_nsec=500000000}) = 0
+1713878872.131979 io_getevents(0x7f4bd4fb9000, 1, 256, [], {tv_sec=0, tv_nsec=500000000}) = 0
+1713878872.632321 io_getevents(0x7f4bd4fb9000, 1, 256, [], {tv_sec=0, tv_nsec=500000000}) = 0
+1713878873.132587 io_getevents(0x7f4bd4fb9000, 1, 256, [], {tv_sec=0, tv_nsec=500000000}) = 0
+1713878873.632964 io_getevents(0x7f4bd4fb9000, 1, 256, [], {tv_sec=0, tv_nsec=500000000}) = 0
+1713878874.133263 io_getevents(0x7f4bd4fb9000, 1, 256, [], {tv_sec=0, tv_nsec=500000000}) = 0
+1713878874.633618 io_getevents(0x7f4bd4fb9000, 1, 256, [], {tv_sec=0, tv_nsec=500000000}) = 0
+1713878875.133888 io_getevents(0x7f4bd4fb9000, 1, 256, [], {tv_sec=0, tv_nsec=500000000}) = 0
+1713878875.634161 io_getevents(0x7f4bd4fb9000, 1, 256, [], {tv_sec=0, tv_nsec=500000000}) = 0
+1713878876.134371 io_getevents(0x7f4bd4fb9000, 1, 256, [], {tv_sec=0, tv_nsec=500000000}) = 0
+1713878876.634848 io_getevents(0x7f4bd4fb9000, 1, 256, [], {tv_sec=0, tv_nsec=500000000}) = 0
+1713878877.135434 io_getevents(0x7f4bd4fb9000, 1, 256, [], {tv_sec=0, tv_nsec=500000000}) = 0
+1713878877.636060 io_getevents(0x7f4bd4fb9000, 1, 256, [], {tv_sec=0, tv_nsec=500000000}) = 0
+1713878878.136552 io_getevents(0x7f4bd4fb9000, 1, 256, [], {tv_sec=0, tv_nsec=500000000}) = 0
+1713878878.637159 io_getevents(0x7f4bd4fb9000, 1, 256, [], {tv_sec=0, tv_nsec=500000000}) = 0
+1713878879.137793 io_getevents(0x7f4bd4fb9000, 1, 256, [], {tv_sec=0, tv_nsec=500000000}) = 0
+1713878879.638252 io_getevents(0x7f4bd4fb9000, 1, 256, [], {tv_sec=0, tv_nsec=500000000}) = 0
+1713878880.138771 io_getevents(0x7f4bd4fb9000, 1, 256, [], {tv_sec=0, tv_nsec=500000000}) = 0
+1713878880.639496 io_getevents(0x7f4bd4fb9000, 1, 256, [], {tv_sec=0, tv_nsec=500000000}) = 0
+1713878881.139943 io_getevents(0x7f4bd4fb9000, 1, 256, [], {tv_sec=0, tv_nsec=500000000}) = 0
+1713878881.640262 io_getevents(0x7f4bd4fb9000, 1, 256, [], {tv_sec=0, tv_nsec=500000000}) = 0
+1713878882.140894 io_getevents(0x7f4bd4fb9000, 1, 256, [], {tv_sec=0, tv_nsec=500000000}) = 0
+1713878882.641531 io_getevents(0x7f4bd4fb9000, 1, 256, [], {tv_sec=0, tv_nsec=500000000}) = 0
+1713878883.142282 io_getevents(0x7f4bd4fb9000, 1, 256, [], {tv_sec=0, tv_nsec=500000000}) = 0
+1713878883.643054 io_getevents(0x7f4bd4fb9000, 1, 256, [], {tv_sec=0, tv_nsec=500000000}) = 0
+1713878884.148642 io_getevents(0x7f4bd4fb9000, 1, 256, [], {tv_sec=0, tv_nsec=500000000}) = 0
+1713878884.648928 io_getevents(0x7f4bd4fb9000, 1, 256, [], {tv_sec=0, tv_nsec=500000000}) = 0
+1713878885.149463 io_getevents(0x7f4bd4fb9000, 1, 256, [], {tv_sec=0, tv_nsec=500000000}) = 0
+1713878885.650080 io_getevents(0x7f4bd4fb9000, 1, 256, [], {tv_sec=0, tv_nsec=500000000}) = 0
+1713878886.150736 io_getevents(0x7f4bd4fb9000, 1, 256, [], {tv_sec=0, tv_nsec=500000000}) = 0
+1713878886.651421 io_getevents(0x7f4bd4fb9000, 1, 256, [], {tv_sec=0, tv_nsec=500000000}) = 0
+1713878887.152161 io_getevents(0x7f4bd4fb9000, 1, 256, [], {tv_sec=0, tv_nsec=500000000}) = 0
+1713878887.652667 io_getevents(0x7f4bd4fb9000, 1, 256, [], {tv_sec=0, tv_nsec=500000000}) = 0
+1713878888.153159 io_getevents(0x7f4bd4fb9000, 1, 256, [], {tv_sec=0, tv_nsec=500000000}) = 0
+1713878888.653652 io_getevents(0x7f4bd4fb9000, 1, 256, [], {tv_sec=0, tv_nsec=500000000}) = 0
+1713878889.154107 io_getevents(0x7f4bd4fb9000, 1, 256, [], {tv_sec=0, tv_nsec=500000000}) = 0
+1713878889.654798 io_getevents(0x7f4bd4fb9000, 1, 256, [], {tv_sec=0, tv_nsec=500000000}) = 0
+1713878890.155429 io_getevents(0x7f4bd4fb9000, 1, 256, [], {tv_sec=0, tv_nsec=500000000}) = 0
+1713878890.655881 io_getevents(0x7f4bd4fb9000, 1, 256,  <detached ...>
